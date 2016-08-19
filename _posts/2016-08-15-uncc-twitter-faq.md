@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Twitter FAQ for UNCC Researchers"
 categories: [twitter, faq]
 tags: [api, text mining, spatial, time, social network]

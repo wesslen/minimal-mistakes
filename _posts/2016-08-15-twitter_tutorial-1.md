@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Twitter Tutorial on Charlotte Beer Tweets"
 categories: [twitter, tutorial]
 tags: [api, data, geolocation, time]
