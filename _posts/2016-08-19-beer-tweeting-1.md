@@ -1,8 +1,9 @@
 ---
 layout: single
-title:  "Twitter Tutorial on Charlotte Beer Tweets: Part 1"
+excerpt: "A tutorial on Twitter Analytics using R: Part 1 - Time, Location and App"
+title:  "Beer in the Queen City: How Tweet It Is"
 categories: [twitter]
-tags: [api, data, geolocation, time]
+tags: [api, device, geolocation, time]
 ---
 
 ![Photograph by Eric Gaddy with Casting Shadows Photography](/images/charlottebeer.jpeg) Photograph by Eric Gaddy with [Casting Shadows Photography](http://castingshadowsphotography.com/)
@@ -111,7 +112,7 @@ source('functions.R')
 
 ### Time
 
-First, let's plot the daily count of Tweets along with a smoothing line. These interactive graphs are created using [Plotly](https://plot.ly/).
+First, let's plot the daily count of Tweets along with a smoothing line. These graphs are created using [Plotly](https://plot.ly/).
 
 ``` r
 timePlotly(beer.tweets)
@@ -119,15 +120,15 @@ timePlotly(beer.tweets)
 
 ![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-7-1.png) First, what are the spikes?
 
--   Answer: The weekend.
+-   The weekend.
 
 And, why was there a drop in late December?
 
--   Answer: The Christmas holiday!
+-   The Christmas holiday!
 
 Wondering why there was a weak turnout around the January 21-22 weekend?
 
--   Answer: Because it snowed that weekend and, of course, even Charlotte bars shut down for an inch of snow.
+-   Because it snowed that weekend and, of course, even Charlotte bars close for an inch of snow.
 
 But are there other time patterns -- like daily or hourly?
 
@@ -137,7 +138,7 @@ Let's create a box-plot for day of week and a line plot for hour to examine.
 weekPlotly(beer.tweets)
 ```
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-8-1.png) This plot shows how Tweets vary by the day of the week.
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-8-1.png) This plot shows how Tweets vary by the day of the week.
 
 The weekend makes a difference. On average, there were about 90 geo-located point Tweets on Saturdays. Friday and Sundays average about 50-60 beer Tweets, but have some variability.
 
@@ -151,7 +152,7 @@ What about an hourly plot?
 hourPlotly(beer.tweets)
 ```
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-9-1.png) For this plot, we plotted the 24 hour Try clicking on one of the days' names in the legend. It filters out the selected day.
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-9-1.png) For this plot, we plotted the 24 hour Try clicking on one of the days' names in the legend. It filters out the selected day.
 
 Filter out Monday to Wednesday. Saturdays, Tweets start coming in around 11am through the night. Sundays, Tweets start at 12 but fall off around 8pm.
 
@@ -234,7 +235,7 @@ Let's create a bar chart to compare the number of points and polygon Tweets.
 plotlyBarChart(geo_type_cnt) 
 ```
 
-<img src="01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" /> Most of the tweets in our dataset are points (91%); only 9% of the Tweets are polygons. For reference, the original dataset of all Charlotte geo-located Tweets had about a 50% / 50% mix of point and polygons. Therefore, this dataset has a high ratio of points-to-polygons.
+<img src="/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" /> Most of the tweets in our dataset are points (91%); only 9% of the Tweets are polygons. For reference, the original dataset of all Charlotte geo-located Tweets had about a 50% / 50% mix of point and polygons. Therefore, this dataset has a high ratio of points-to-polygons.
 
 Given their prevalence, let's consider the points. If we are to plot them on a map, where are the Tweets located geographically?
 
@@ -254,17 +255,17 @@ plots
 
     ## $Region
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-1.png)
 
     ## 
     ## $Charlotte
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-2.png)
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-2.png)
 
     ## 
     ## $Uptown
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-3.png)
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-3.png)
 
 The three plots above show all of the point Tweets at varying zoom-levels. The points are accompanied by smoothed heat-maps to get a general sense of the areas with more Tweets.
 
@@ -278,7 +279,7 @@ topplaces <- convertBreweries(count)
 barChartHandle(topplaces, font_size = 14)
 ```
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 First, we separated the data into three colors: Charlotte breweries (Green), non-Charlotte breweries (Blue) and Charlotte bars and growler shops (Red). Like the previous bar charts, you can filter the groups by clicking on each in the legend.
 
