@@ -129,7 +129,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 89)
+  json
 
 BUNDLED WITH
    1.12.5
