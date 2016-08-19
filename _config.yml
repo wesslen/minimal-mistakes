@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Digital Footprints"
 title_separator          : "-"
 name                     : "Ryan Wesslen"
-description              : "An amazing website."
+description              : "Applications in computational social science research for UNCC research community"
 url                      : "https://wesslen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "ryanwesslen"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
