@@ -1,3 +1,10 @@
+---
+layout: single
+title:  "Twitter Tutorial on Charlotte Beer Tweets: Part 1"
+categories: [twitter, tutorial]
+tags: [api, data, geolocation, time]
+---
+
 ![Photograph by Eric Gaddy with Casting Shadows Photography](images/charlottebeer.jpeg) Photograph by Eric Gaddy with [Casting Shadows Photography](http://castingshadowsphotography.com/)
 
 ### Introduction
