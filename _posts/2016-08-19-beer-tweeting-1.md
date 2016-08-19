@@ -8,7 +8,7 @@ tags: [api, device, geolocation, time]
 
 ![Photograph by Eric Gaddy with Casting Shadows Photography](/images/charlottebeer.jpeg) Photograph by Eric Gaddy with [Casting Shadows Photography](http://castingshadowsphotography.com/)
 
-### Introduction
+## Introduction
 
 Charlotte, North Carolina: home of NASCAR, barbeque, banking and ... craft beer?
 
@@ -110,7 +110,7 @@ Like a library, the `source` function runs these functions so that we can use th
 source('functions.R')
 ```
 
-### Time
+## Time
 
 First, let's plot the daily count of Tweets along with a smoothing line. These graphs are created using [Plotly](https://plot.ly/).
 
@@ -158,7 +158,7 @@ Two observations. First, Saturday and Sunday Tweets start coming in around 11am 
 
 It's clear that time is an important factor in the number of Tweets. Let's now explore location as measured through GPS data: geo-location.
 
-### Geo-location
+## Geo-location
 
 There are three types of Twitter location data (3 P's): points, polygons and profile locations.
 
@@ -168,7 +168,7 @@ These location types can be divided into two groups: geo-location and descriptiv
 
 A key difference between geo-location data and descriptive data is that users must opt-in to provide geo-location data; descriptive data can be provided or removed at any time. Table 1 outlines the differences between each of the three types of Twitter location data.
 
-#### Table 1: Twitter Location Data Types
+### Table 1: Twitter Location Data Types
 
 <table style="width:124%;">
 <colgroup>
@@ -210,7 +210,7 @@ As a rule of thumb, you can think of points as *specific* geo-locations while po
 
 ------------------------------------------------------------------------
 
-### Researchers: Caution on Geo-location and its Limitations
+## Researchers: Caution on Geo-location and its Limitations
 
 **Most Tweets do not have any geo-location information (point or polygon data)!** This dataset **excludes** non-geolocated Charlotte Beer Tweets. For example, I tweet while standing in Charlotte but I have geo-location disabled.
 
@@ -293,7 +293,7 @@ Unfortunately, this analysis does not provide insight on whether users are Tweet
 
 Yet for simplicity, in the next section, we will exploit information using a text extraction function to distinguish mentions for a subset of Tweets from Untappd, a beer mobile app that drives a majority of the beer-Tweets.
 
-### Device or App
+## Device or App
 
 In this section, we'll analyze how people are Tweeting by understanding what app or device they use to generate their Tweet. By doing so, we'll find that unique devices or apps can generate specific types of information and, more importantly, can impact what information users provide or withhold in their Tweet.
 
@@ -466,11 +466,11 @@ head(agg_all[agg_all$Bar == "ncbeertemple",c(2:3)],10)
 
 While I'm only showing a few examples, with a longer time horizons, could these results be used to infer beer sales: do more mentions correlate with highest sales? Unfortunately, we cannot answer this question without corresponding sales data but a key takeaway is that supplemental data (e.g. company data, demographics data) can provide deeper insights to Twitter analyses.
 
-### Recap
+## Recap
 
 Like most applied research, let's review the major takeaways for researchers and practioners (i.e., brewery owners):
 
-#### Researchers:
+### Researchers:
 
 1.  **Geo-location, time and device are important factors to consider in Twitter research.** First, geo-location offers insight into spatial patterns, but self-selection bias remains a risk. Second, cyclical patterns can occur due to day of week, day and hour; therefore, be aware of the time-frame of your dataset. Last, Tweets can come from multiple different devices (apps); each app can provide unique attributes (e.g. a check-in app has geo-location)
 
@@ -478,7 +478,7 @@ Like most applied research, let's review the major takeaways for researchers and
 
 3.  **Be aware of time frame and one time events.** Seasonality like week, day of week or even hour can have an impact on the quantity of Tweets. In the case of beer-related Tweets, most occur on the weekends and in the afternoon and evening. This is an intuitive result. However, other research questions may have not-so-obvious seasonal patterns. Explore time patterns and attempt to identify any one-time events that may impact your results.
 
-#### Brewery/Bar Owners:
+### Brewery/Bar Owners:
 
 1.  **NoDa Brewery has the greatest presence of all breweries.** NoDa has the most mentions and its flagship beer, Hop Drop n Roll, is the most popular by mentions. Most of NoDa's check-ins are not at one of its breweries, but instead across multiple bars throughout the area. This indicates NoDa Brewery's wide range across many beer taps in the area.
 

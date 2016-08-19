@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Twitter FAQ for UNCC Researchers"
+excerpt: "Resources for University Researchers interested in Twitter Research"
 categories: [twitter]
 tags: [faq, text mining, spatial, time, public api]
 ---
