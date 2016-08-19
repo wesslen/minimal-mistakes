@@ -118,7 +118,7 @@ First, let's plot the daily count of Tweets along with a smoothing line. These g
 timePlotly(beer.tweets)
 ```
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-7-1.png) First, what are the spikes?
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-7-1.png) First, what are the spikes?
 
 -   The weekend.
 
@@ -138,7 +138,7 @@ Let's create a box-plot for day of week and a line plot for hour to examine.
 weekPlotly(beer.tweets)
 ```
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-8-1.png) This plot shows how Tweets vary by the day of the week.
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-8-1.png) This plot shows how Tweets vary by the day of the week.
 
 The weekend makes a difference. On average, there were about 90 geo-located point Tweets on Saturdays. Friday and Sundays average about 50-60 beer Tweets, but have some variability.
 
@@ -152,7 +152,7 @@ What about an hourly plot?
 hourPlotly(beer.tweets)
 ```
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-9-1.png) 
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-9-1.png) 
 
 Two observations. First, Saturday and Sunday Tweets start coming in around 11am through the night. While for the weekdays, beer Tweets are mostly coming at night. 
 
@@ -210,7 +210,7 @@ As a rule of thumb, you can think of points as *specific* geo-locations while po
 
 ------------------------------------------------------------------------
 
-#### Researchers: Caution on Geo-location and its Limitations
+### Researchers: Caution on Geo-location and its Limitations
 
 **Most Tweets do not have any geo-location information (point or polygon data)!** This dataset **excludes** non-geolocated Charlotte Beer Tweets. For example, I tweet while standing in Charlotte but I have geo-location disabled.
 
@@ -235,7 +235,7 @@ Let's create a bar chart to compare the number of points and polygon Tweets.
 plotlyBarChart(geo_type_cnt) 
 ```
 
-<img src="/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" /> Most of the tweets in our dataset are points (91%); only 9% of the Tweets are polygons. For reference, the original dataset of all Charlotte geo-located Tweets had about a 50% / 50% mix of point and polygons. Therefore, this dataset has a high ratio of points-to-polygons.
+<img src="/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-11-1.png" style="display: block; margin: auto;" /> Most of the tweets in our dataset are points (91%); only 9% of the Tweets are polygons. For reference, the original dataset of all Charlotte geo-located Tweets had about a 50% / 50% mix of point and polygons. Therefore, this dataset has a high ratio of points-to-polygons.
 
 Given their prevalence, let's consider the points. If we are to plot them on a map, where are the Tweets located geographically?
 
@@ -255,17 +255,17 @@ plots
 
     ## $Region
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-1.png)
 
     ## 
     ## $Charlotte
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-2.png)
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-2.png)
 
     ## 
     ## $Uptown
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-3.png)
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-13-3.png)
 
 The three plots above show all of the point Tweets at varying zoom-levels. The points are accompanied by smoothed heat-maps to get a general sense of the areas with more Tweets.
 
@@ -279,7 +279,7 @@ topplaces <- convertBreweries(count)
 barChartHandle(topplaces, font_size = 14)
 ```
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/assets/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 First, we separated the data into three colors: Charlotte breweries (Green), non-Charlotte breweries (Blue) and Charlotte bars and growler shops (Red). Like the previous bar charts, you can filter the groups by clicking on each in the legend.
 
