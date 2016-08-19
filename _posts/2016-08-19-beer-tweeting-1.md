@@ -152,9 +152,9 @@ What about an hourly plot?
 hourPlotly(beer.tweets)
 ```
 
-![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-9-1.png) For this plot, we plotted the 24 hour Try clicking on one of the days' names in the legend. It filters out the selected day.
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-9-1.png) 
 
-Filter out Monday to Wednesday. Saturdays, Tweets start coming in around 11am through the night. Sundays, Tweets start at 12 but fall off around 8pm.
+Two observations. First, Saturday and Sunday Tweets start coming in around 11am through the night. While for the weekdays, beer Tweets are mostly coming at night. 
 
 It's clear that time is an important factor in the number of Tweets. Let's now explore location as measured through GPS data: geo-location.
 
@@ -173,7 +173,7 @@ A key difference between geo-location data and descriptive data is that users mu
 <table style="width:124%;">
 <colgroup>
 <col width="23%" />
-<col width="59%" />
+<col width="40%" />
 <col width="40%" />
 </colgroup>
 <thead>
