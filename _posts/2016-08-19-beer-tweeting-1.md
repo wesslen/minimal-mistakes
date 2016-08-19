@@ -1,11 +1,11 @@
 ---
 layout: single
 title:  "Twitter Tutorial on Charlotte Beer Tweets: Part 1"
-categories: [twitter, tutorial]
+categories: [twitter]
 tags: [api, data, geolocation, time]
 ---
 
-![Photograph by Eric Gaddy with Casting Shadows Photography](images/charlottebeer.jpeg) Photograph by Eric Gaddy with [Casting Shadows Photography](http://castingshadowsphotography.com/)
+![Photograph by Eric Gaddy with Casting Shadows Photography](/images/charlottebeer.jpeg) Photograph by Eric Gaddy with [Casting Shadows Photography](http://castingshadowsphotography.com/)
 
 ### Introduction
 
@@ -117,7 +117,7 @@ First, let's plot the daily count of Tweets along with a smoothing line. These i
 timePlotly(beer.tweets)
 ```
 
-![](01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-7-1.png) First, what are the spikes?
+![](/01-beerandtweeting_files/figure-markdown_github/unnamed-chunk-7-1.png) First, what are the spikes?
 
 -   Answer: The weekend.
 

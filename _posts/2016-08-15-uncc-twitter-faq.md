@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Twitter FAQ for UNCC Researchers"
-categories: [twitter, faq]
-tags: [api, text mining, spatial, time, social network]
+categories: [twitter]
+tags: [faq, text mining, spatial, time, public api]
 ---
 
 As part of my RA role for UNCC's [Data Science Initative](http://dsi.uncc.edu) and [Project Mosaic](http://projectmosaic.uncc.edu), I'm tasked with providing Twitter data resources for acquisition, preparation and analysis for UNCC researchers. 

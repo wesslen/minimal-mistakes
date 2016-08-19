@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Twitter Tutorial on Charlotte Beer Tweets"
-categories: [twitter, tutorial]
+categories: [twitter]
 tags: [api, data, geolocation, time]
 ---
 
