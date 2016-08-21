@@ -158,11 +158,11 @@ library(visNetwork)
 visIgraph(graph)
 ```
 
-![](/images/unnamed-chunk-7-1.png)
+{% include visIgraph-network.html %}
 
-Typically, this plot would be interactive. However, due to Markdown conversion issues, it is a static image.
+This is a good start, but we need more details about the network.
 
-Let's instead convert our igraph structure into a visNetwork data structure, then separating the list into two dataframes: nodes and edges.
+Let's go a different route by creating visNetwork data structure. To do this, we convert our igraph structure into a visNetwork data structure, then separating the list into two dataframes: nodes and edges.
 
 ``` r
 data <- toVisNetworkData(graph)
@@ -197,7 +197,8 @@ edges$title <- round(edges$edge.width,3)
 Finally, let's create our network with an interactive plot. 
 
 ``` r
-visNetwork(nodes, edges) %>% visOptions(highlightNearest = TRUE, selectedBy = "community", nodesIdSelection = TRUE)
+visNetwork(nodes, edges) %>% 
+    visOptions(highlightNearest = TRUE, selectedBy = "community", nodesIdSelection = TRUE)
 ```
 
 {% include topic-network.html %}
