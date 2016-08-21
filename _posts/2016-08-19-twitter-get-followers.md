@@ -11,13 +11,13 @@ Public API
 
 This tutorial outlines how you can pull the followers of multiple Twitter users via the public API.
 
-One difficulty is that Twitter limits users via public API to 15 API calls per 15 minutes. Each API call can grab the name of up to 5,000 Twitter users. For example, if we want to grab all of the followers of a user with 25,000 followers, we would use 5 API calls (5k x 5 calls).
+One difficulty is that Twitter limits users via public API to 15 API calls per 15 minutes. Each API call can grab the name of up to 5,000 Twitter users. For example, if we want to grab all of the followers of a user with 25,000 followers, we would use 5 API calls (5k x 5 calls). Given there are 15 calls per 15 minutes, this implies we can get up to 75,000 followers' Twitter IDs every 15 minutes. This process works well for most Twitter users (< 100k followers), but could take hours for users with 1MM+ followers.
 
-This API call will only return the name (ID) of the users. Usually, we'd want more information like the users' profile information. For this, we have to query user information in which we are limited to 180 calls, each one is limited to getting profile information for 100 users. This implies that we can only get profile information for up to 18,000 users each 15 min.
+Yet these API calls will only return the name (ID) of the users. Usually, we'd want more information like the users' profile information. For this, we have to query user information in which we are limited to 180 calls, each one is limited to getting profile information for 100 users. This implies that we can only get profile information for up to 18,000 users each 15 min.
 
-Therefore, at most we can get 25,000 followers and 18,000 user profile attributes every 15 minutes. While this may be frustrating, one way around this is to set up a crawler that will sleep after a limit is hit, then rerun once the limit has restarted.
+Therefore, at most we can get 75,000 followers and 18,000 user profile attributes every 15 minutes. While this may be frustrating, one way around this is to set up a crawler that will sleep after a limit is hit, then rerun once the limit has restarted.
 
-The process we'll run below can take a few hours. You can limit it by changing the names of the Twitter users we want to grab its followers. For an easy application, run only 1 and view your results.
+The process below takes about 2.5 hours. You can limit it by changing the names of the Twitter users we want to grab its followers. For an easy application, run only 1 profile's followers and view your results.
 
 Code to run
 -----------
@@ -78,7 +78,7 @@ for (i in names){
      cursor = -1, user_id = NULL, verbose = TRUE, sleep = 1)
   
   #Batch mode - get User ID info (ID, name, description, etc)
-   userdata <- getUsersBatch(ids=followers[1],
+   userdata <- getUsersBatch(ids=followers,
      oauth_folder="~/Dropbox/credentials")
   
   userdata$brewery <- i
