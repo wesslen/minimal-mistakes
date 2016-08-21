@@ -9,7 +9,7 @@ tags: [topic modeling, lda, community detection, social network]
 Creating a topic network
 ------------------------
 
-For Project Mosaic, I'm researching UNCC publications in social sciences and computing including analyzing the abstract texts and understanding the co-authorship social network.
+For [Project Mosaic](http://projectmosaic.uncc.edu), I'm researching UNCC publications in social sciences and computing including analyzing the abstract texts and understanding the co-authorship social network.
 
 For text mining portion, I'm running LDA (topic modeling) on five years worth of publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, please review documents from [Tyler Rinker's Topic Modeling Repo](https://github.com/trinker/topicmodels_learning).)
 
@@ -109,11 +109,11 @@ title("Community Detection in Topic Network", cex.main=.8)
 
 ![](/images/unnamed-chunk-5-1.png)
 
-Community detection found seven communites, plus five additional communities for each of the five isolated topics (i.e., topics that do not have any connections).
+Community detection found thirteen communites, plus multiple additional communities for each of the isolated topics (i.e., topics that do not have any connections).
 
 Similar to initial observation, the algorithm found the three main clusters we recognized in the first plot, but also added four smaller clusters that don't seem to fit well in any of the three main clusters.
 
-Let's save our communities and also calculate betweenness which we'll use in the next section.
+Let's save our communities and also calculate degree centrality and betweenness which we'll use in the next section.
 
 ``` r
 V(graph)$community <- clp$membership
@@ -170,7 +170,7 @@ nodes$color.highlight.border <- "darkred"
 edges$title <- round(edges$edge.width,3)
 ```
 
-Finally, let's create our network with an interactive plot. 
+Finally, let's create our network with an interactive plot. You can zoom by using your mouse scroll wheel.
 
 ``` r
 visNetwork(nodes, edges) %>% 
