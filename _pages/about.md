@@ -1,14 +1,15 @@
 ---
-title: "About me"
+title: "About"
 layout: single
-excerpt: "About me page"
+excerpt: "About the blog and me"
 sitemap: false
 permalink: /about.html
 ---
 
-Ryan Wesslen is a PhD student in Computing and Information Systems at UNC Charlotte. 
+Every day you leave a trail of data when you comment on your friend's Facebook photo, send an email or retweet a funny cat photo. As our lives become more integrated with digital platforms, we leave more and more digital footprints tracing our thoughts, feelings, opinions and actions.
 
-His focus is on integrating computer science methods with social science research: the emerging field of computational social science. He has a dual research assistantship through UNC Charlotte's [Data Science Initiative](http://dsi.uncc.edu) and [Project Mosaic](http://projectmosaic.uncc.edu), the university's social science research initiative. 
+In this blog, I will cover tools and techniques to analyze the abundant troves of digital footprints in social media, text and social networks. 
 
-In this role, his research includes social network analysis, text mining (latent variable models), visualizations and social media applications (e.g., Twitter).
+As for me, I'm a PhD student in Computing and Information Systems at UNC Charlotte. I have a dual research assistantship through UNC Charlotte's [Data Science Initiative](http://dsi.uncc.edu) and [Project Mosaic](http://projectmosaic.uncc.edu), the university's social science research initiative. 
 
+My focus is on integrating computer science methods with social science research: the emerging field of computational social science. My research interests include social network analysis, text mining (latent variable models), visualizations and social media applications (e.g., Twitter).

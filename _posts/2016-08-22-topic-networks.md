@@ -13,9 +13,9 @@ For [Project Mosaic](http://projectmosaic.uncc.edu), I'm researching UNCC public
 
 For text mining portion, I'm running LDA (topic modeling) on five years worth of publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, please review documents from [Tyler Rinker's Topic Modeling Repo](https://github.com/trinker/topicmodels_learning).)
 
-One problem I came across was how to measure and analyse the correlation across topics. In particular, I wanted to analyze the correlation between topic word probabilities by creating a network that connects similar topics.
+One problem I came across was how to measure and analyze the correlation across topics. In particular, I want to analyze the correlation between topic word probabilities by creating a network that connects similar topics.
 
-For this exercise, I combined the code provided in Tyler's Repo (see the section "Network of the Word Distributions Over Topics (Topic Relation)") and helpful network visualizations from [Katherine Ognyanova's phenomenal Network Visualization Tutorial](http://kateto.net/network-visualization).
+In this tutorial, I accomplish this by combining code provided in Tyler's Repo (see the section "Network of the Word Distributions Over Topics (Topic Relation)") and network visualization code from [Katherine Ognyanova's phenomenal Network Visualization Tutorial](http://kateto.net/network-visualization).
 
 Data preparation
 ----------------
@@ -95,9 +95,9 @@ title("Strength Between Topics Based On Word Probabilities", cex.main=.8)
 
 ![](/images/unnamed-chunk-4-1.png)
 
-Each number is the topic number. There looks like there are three main clusters.
+Each number is the topic number. My first observation is that there looks like there are three main clusters.
 
-Let's use community detection to determine clusters within the network.
+Let's use [community detection](http://igraph.wikidot.com/community-detection-in-r), specifically the label propagation algorithm in igraph, to determine clusters within the network.
 
 ``` r
 clp <- cluster_label_prop(graph)
@@ -111,7 +111,7 @@ title("Community Detection in Topic Network", cex.main=.8)
 
 Community detection found thirteen communites, plus multiple additional communities for each of the isolated topics (i.e., topics that do not have any connections).
 
-Similar to initial observation, the algorithm found the three main clusters we recognized in the first plot, but also added four smaller clusters that don't seem to fit well in any of the three main clusters.
+Similar to my initial observation, the algorithm found the three main clusters we recognized in the first plot, but also added additional smaller clusters that don't seem to fit well in any of the three main clusters.
 
 Let's save our communities and also calculate degree centrality and betweenness which we'll use in the next section.
 
