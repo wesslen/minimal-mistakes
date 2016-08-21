@@ -1,7 +1,7 @@
 ---
 layout: single
 excerpt: "A tutorial on using R to get Twitter followers via RESTful API"
-title:  "Quick tutorial on getting Twitter Followers"
+title:  "Crawling Twitter Followers in R"
 categories: [twitter]
 tags: [api, followers, social network, profile]
 ---
