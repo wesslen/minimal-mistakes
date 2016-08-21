@@ -24,6 +24,8 @@ Our first step is to load our topic matrices that are outputs of LDA. One variat
 
 I ran this because our ultimate goal is to use these topic modeling results as an information retrieval system to determine which researchers are experts in each topic.
 
+As an alternative, you can use the output of the `topicmodels` package `lda` function to create any word-topic and document-topic matrices. Take the output of your `lda` function and run the `posterior` function on the output.
+
 ``` r
 # load in author-topic matrix
 author <- read.csv("./socsci_shiny/author_topics.csv", stringsAsFactors = F)
@@ -58,7 +60,7 @@ colnames(author) <- c("author_name",name$topic_name)
 Create static networks
 ----------------------
 
-In the first step, I decide to create network edges (links) for only topics that have at least 1 13% correlation in the word probabilities. This goal is to remove correlations that may be due to randomness. Note however this threshold was chosen with trial and error and not through some optimization process.
+In the first step, I decide to create network edges (links) for only topics that have at least 20% correlation in the word probabilities. This goal is to remove correlations that may be due to randomness. Note however this threshold was chosen with trial and error and not through some optimization process.
 
 ``` r
 cor_threshold <- .2
@@ -68,26 +70,13 @@ cor_mat[ cor_mat < cor_threshold ] <- 0
 diag(cor_mat) <- 0
 ```
 
-Next, we use the correlation matrix to create an igraph data structure, removing all edges that have less than the 13% minimum threshold correlation.
+Next, we use the correlation matrix to create an igraph data structure, removing all edges that have less than the 20% minimum threshold correlation.
 
 ``` r
 library(igraph)
-```
 
-    ## 
-    ## Attaching package: 'igraph'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     decompose, spectrum
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     union
-
-``` r
 graph <- graph.adjacency(cor_mat, weighted=TRUE, mode="lower")
-#graph <- delete.edges(graph, E(graph)[ weight < cor_threshold])
+graph <- delete.edges(graph, E(graph)[ weight < cor_threshold])
 
 E(graph)$edge.width <- E(graph)$weight
 V(graph)$label <- paste(1:100)
@@ -113,11 +102,7 @@ Let's use community detection to determine clusters within the network.
 ``` r
 clp <- cluster_label_prop(graph)
 class(clp)
-```
 
-    ## [1] "communities"
-
-``` r
 plot(clp, graph, edge.width = E(graph)$edge.width, vertex.size = 2, vertex.label = "")
 title("Community Detection in Topic Network", cex.main=.8)
 ```
@@ -145,16 +130,7 @@ First, let's call the library and run `visIgraph` that runs an interactive netwo
 
 ``` r
 library(visNetwork)
-```
 
-    ## 
-    ## Attaching package: 'visNetwork'
-
-    ## The following object is masked from 'package:igraph':
-    ## 
-    ##     %>%
-
-``` r
 visIgraph(graph)
 ```
 
@@ -202,3 +178,9 @@ visNetwork(nodes, edges) %>%
 ```
 
 {% include topic-network.html %}
+
+There are two dropdown menus. The first dropdown allows you to find any of the topics by name (top five words by word probability).
+
+The second dropdown highlights the communities detected in our algorithm. Play around with this menu. Using the topic names (zoom in with mouse scroll), can you interpret what the topic community seem to be?
+
+The three largest seems to be technology/computing, social issues and physical health issues. What's unique about the smaller communities that are detected?
