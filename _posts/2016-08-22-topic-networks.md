@@ -17,10 +17,10 @@ For text mining, I'm running topic modeling ([Latent Dirichlet Allocation](https
 
 One problem I came across was: how to measure the relationships (correlations) between topics? In particular, I want use network science to measure creating a network that connects similar topics.
 
-In this tutorial, I accomplish this by combining code provided in:
+In this tutorial, I accomplish this by combining code from two awesome resources:
 
-*   [Tyler Rinker's Topic Modeling Repo](https://github.com/trinker/topicmodels_learning) (see the section "Network of the Word Distributions Over Topics") 
-*   [Katherine Ognyanova's phenomenal Network Visualization Tutorial](http://kateto.net/network-visualization).
+*   [Tyler Rinker's Topic Modeling Repo](https://github.com/trinker/topicmodels_learning) (see "Network of the Word Distributions Over Topics") 
+*   [Katherine Ognyanova's Network Visualization Tutorial](http://kateto.net/network-visualization).
 
 Data preparation
 ----------------
