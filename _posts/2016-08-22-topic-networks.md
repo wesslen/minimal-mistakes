@@ -13,7 +13,7 @@ Creating a topic network
 
 For [Project Mosaic](http://projectmosaic.uncc.edu), I'm researching UNCC publications in social science and computing & informatics by analyzing the abstract text and the co-authorship social network.
 
-For text mining, I'm running topic modeling ([Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) or LDA for short) on five years of peer-reviewed publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, please review documents from [Tyler Rinker's Topic Modeling Repo].)
+For text mining, I'm running topic modeling ([Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) or LDA for short) on five years of peer-reviewed publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, a good start is [David Blei's "Probabilistic Topic Models"](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf).)
 
 One problem I came across was: how to measure the relationships (correlations) between topics? In particular, I want use network science to measure creating a network that connects similar topics.
 
@@ -184,8 +184,8 @@ There are two dropdown menus. The first dropdown allows you to find any of the t
 The second dropdown highlights the communities detected in our algorithm. Play around with this menu. Using the topic names (zoom in with mouse scroll), can you interpret what the topic community seem to be?
 
 The three largest seems to be: 
-1.  Computing (gray, cluster 4)
-2.  Social (green-blue, cluster 1)
-3.  Health (yellow, cluster 2)
+*   Computing (gray, cluster 4)
+*   Social (green-blue, cluster 1)
+*   Health (yellow, cluster 2)
 
 What's unique about the smaller communities that are detected? Can you interpret them?
