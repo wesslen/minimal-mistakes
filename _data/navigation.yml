@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "UNCC Twitter Data FAQ"
-    url: /faq
+    url: "http://webpages.uncc.edu/rwesslen/blogs/twitter-faq.html"
 
   - title: "Tags"
-    url: /tags
+    url: /tag
 
   - title: "About"
     url: /about
