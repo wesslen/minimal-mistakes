@@ -41,7 +41,7 @@ The first is the common RESTful API package for R. The second is a package built
 
 For now, I'll use a saved file that has my permissions.
 
-Now, let's list the 19 Charlotte bars/breweries we'll be pulling for.
+Now, let's list the 15 Charlotte bars/breweries (by Twitter user name) we'll be pulling.
 
 ``` r
 names <- c("NoDaBrewing","NCBeerTemple","oldemeckbrew","BirdsongBrewing","UnknownBrewing","TripleCBrew","SaludNODA",

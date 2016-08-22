@@ -3,69 +3,66 @@ layout: single
 excerpt: "Visualizing LDA Topic Correlation Network"
 title:  "Using R to detect communities of correlated Topics"
 categories: [text mining]
-tags: [topic modeling, lda, community detection, social network]
+tags: [visualization, lda, community detection, social network]
 ---
+
+![](/images/unnamed-chunk-5-1.png)
 
 Creating a topic network
 ------------------------
 
-For [Project Mosaic](http://projectmosaic.uncc.edu), I'm researching UNCC publications in social sciences and computing including analyzing the abstract texts and understanding the co-authorship social network.
+For [Project Mosaic](http://projectmosaic.uncc.edu), I'm researching UNCC publications in social science and computing & informatics by analyzing the abstract text and the co-authorship social network.
 
-For text mining portion, I'm running LDA (topic modeling) on five years worth of publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, please review documents from [Tyler Rinker's Topic Modeling Repo](https://github.com/trinker/topicmodels_learning).)
+For text mining, I'm running topic modeling ([Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) or LDA for short) on five years of peer-reviewed publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, please review documents from [Tyler Rinker's Topic Modeling Repo].)
 
-One problem I came across was how to measure and analyze the correlation across topics. In particular, I want to analyze the correlation between topic word probabilities by creating a network that connects similar topics.
+One problem I came across was: how to measure the relationships (correlations) between topics? In particular, I want use network science to measure creating a network that connects similar topics.
 
-In this tutorial, I accomplish this by combining code provided in Tyler's Repo (see the section "Network of the Word Distributions Over Topics (Topic Relation)") and network visualization code from [Katherine Ognyanova's phenomenal Network Visualization Tutorial](http://kateto.net/network-visualization).
+In this tutorial, I accomplish this by combining code provided in:
+
+*   [Tyler Rinker's Topic Modeling Repo](https://github.com/trinker/topicmodels_learning) (see the section "Network of the Word Distributions Over Topics") 
+*   [Katherine Ognyanova's phenomenal Network Visualization Tutorial](http://kateto.net/network-visualization).
 
 Data preparation
 ----------------
 
-Our first step is to load our topic matrices that are outputs of LDA. One variation in the way I ran LDA was that I ran an "author-centered" LDA in which all author's abstracts were combined and treated as one document per author.
+Our first step is to load our topic matrices that are outputs of LDA. There are two outputs to LDA: a word-topic matrix and a document-topic matrix. To simplify it, let's load a csv from previously saved 
 
-I ran this because our ultimate goal is to use these topic modeling results as an information retrieval system to determine which researchers are experts in each topic.
+Unlike standard LDA in which the abstracts were the documents, I ran an "author-centered" LDA in which all author's abstracts were combined and treated as one document per author. I ran this because our ultimate goal is to use topic modeling as an information retrieval process to determine researcher expertise by topic.
 
-As an alternative, you can use the output of the `topicmodels` package `lda` function to create any word-topic and document-topic matrices. Take the output of your `lda` function and run the `posterior` function on the output.
+As an alternative to loading flat files, you can use the output of the `topicmodels` package `lda` function to create any word-topic and document-topic matrices. Take the output of your `lda` function and run the `posterior` function on the output.
 
 ``` r
-# load in author-topic matrix
-author <- read.csv("./socsci_shiny/author_topics.csv", stringsAsFactors = F)
+# load in author-topic matrix, first column is word
+author.topic <- read.csv("./author_topics.csv", stringsAsFactors = F)
 
-# update author name column
-names <- colnames(author)
-names[1] <- "author_name"
-colnames(author) <- names
-author$author_name <- factor(author$author_name)
-
-# load in word-topic matrix
-wtt_data <- read.csv("./socsci_shiny/term_topics.csv", stringsAsFactors = F)
-names <- colnames(wtt_data)
-names[1] <- "word"
-colnames(wtt_data) <- names
+# load in word-topic matrix, first column is word
+word.topic <- read.csv("./term_topics.csv", stringsAsFactors = F)
+num.col <- ncol(word.topics)
 
 # create topic names using first five words
-name <- data.frame(matrix("a",ncol(wtt_data)-1,1), stringsAsFactors = F)
-colnames(name) <- "topic_name"
-
-for (i in 2:ncol(wtt_data)){
-  temp <- order(-wtt_data[,i])
-  temp2 <- wtt_data[temp,1]
-  name$topic_name[i-1] <- paste(temp2[1:5], collapse = " + ")
+for (i in 2:num.col){
+  top.words <- word.topics[order(-word.topic[,i])]
+  name$topic_name[i] <- paste(top.words[1:5], collapse = " + ")
 }
 
 # rename topics
-colnames(wtt_data) <- c("word",name$topic_name)
-colnames(author) <- c("author_name",name$topic_name)
+colnames(word.topic) <- c("word",name$topic_name)
+colnames(author.topic) <- c("author_name",name$topic_name)
 ```
 
 Create static networks
 ----------------------
 
-In the first step, I decide to create network edges (links) for only topics that have at least 20% correlation in the word probabilities. This goal is to remove correlations that may be due to randomness. Note however this threshold was chosen with trial and error and not through some optimization process.
+In the next step, I create a network using the correlation between each topic's word probabilities. 
+
+First, I decide to keep only relationships (edges) that have significant correlation (20%+ correlation). I use 20% because its the .05 level of statistical significance for a sample of 100 observations [Wikipedia](https://commons.wikimedia.org/wiki/File:Correlation_significance.svg#/media/File:Correlation_significance.svg).
+
+
 
 ``` r
 cor_threshold <- .2
 
-cor_mat <- cor(wtt_data[,2:ncol(wtt_data)])
+cor_mat <- cor(word.topic[,2:num.col])
 cor_mat[ cor_mat < cor_threshold ] <- 0
 diag(cor_mat) <- 0
 ```
@@ -76,7 +73,6 @@ Next, we use the correlation matrix to create an igraph data structure, removing
 library(igraph)
 
 graph <- graph.adjacency(cor_mat, weighted=TRUE, mode="lower")
-graph <- delete.edges(graph, E(graph)[ weight < cor_threshold])
 
 E(graph)$edge.width <- E(graph)$weight
 V(graph)$label <- paste(1:100)
@@ -158,7 +154,7 @@ Let's add colors and other network parameters to improve our network.
 library(RColorBrewer)
 
 col <- brewer.pal(12, "Set3")[as.factor(nodes$community)]
-nodes$shape <- "dot"  
+nodes$shape <- "dot" 
 nodes$shadow <- TRUE # Nodes will drop shadow
 nodes$title <- nodes$id # Text on click
 nodes$size <- ((nodes$betweenness / max(nodes$betweenness))+.2)*20 # Node size
@@ -172,6 +168,10 @@ edges$title <- round(edges$edge.width,3)
 
 Finally, let's create our network with an interactive plot. You can zoom by using your mouse scroll wheel.
 
+The size of the bubble's is based on the network (centrality) measure **betweenness**. This measures how important that node is to the entire network's connectivity. In this example, larger nodes have a high betweenness, which implies the topic is more important in crossing across topic clusters.
+
+Find the largest nodes: these topics are the "glue" that keeps the network connected.
+
 ``` r
 visNetwork(nodes, edges) %>% 
     visOptions(highlightNearest = TRUE, selectedBy = "community", nodesIdSelection = TRUE)
@@ -183,4 +183,9 @@ There are two dropdown menus. The first dropdown allows you to find any of the t
 
 The second dropdown highlights the communities detected in our algorithm. Play around with this menu. Using the topic names (zoom in with mouse scroll), can you interpret what the topic community seem to be?
 
-The three largest seems to be technology/computing, social issues and physical health issues. What's unique about the smaller communities that are detected?
+The three largest seems to be: 
+1.  Computing (gray, cluster 4)
+2.  Social (green-blue, cluster 1)
+3.  Health (yellow, cluster 2)
+
+What's unique about the smaller communities that are detected? Can you interpret them?
