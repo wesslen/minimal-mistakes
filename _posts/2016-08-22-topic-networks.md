@@ -15,7 +15,7 @@ For [Project Mosaic](http://projectmosaic.uncc.edu), I'm researching UNCC public
 
 For text mining, I'm running topic modeling ([Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) or LDA for short) on five years of peer-reviewed publication abstracts to identify key research themes by university researchers. (If you're not familiar with LDA, a good start is [David Blei's "Probabilistic Topic Models"](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf).)
 
-One problem I came across was: how to measure the relationships (correlations) between topics? In particular, I want use network science to measure creating a network that connects similar topics.
+One problem I came across was: how to measure the relationships (correlations) between topics? In particular, I want to creating a network visualization that connects similar topics and helps users easier navigate a large collection of topics (in this case 100 topics).
 
 In this tutorial, I accomplish this by combining code from two awesome resources:
 
