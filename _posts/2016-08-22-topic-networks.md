@@ -25,7 +25,7 @@ In this tutorial, I accomplish this by combining code from two awesome resources
 Data preparation
 ----------------
 
-Our first step is to load our topic matrices that are outputs of LDA. There are two outputs to LDA: a word-topic matrix and a document-topic matrix. For this tutorial, I uploaded previously saved LDA 
+Our first step is to load our topic matrices that are outputs of LDA. There are two outputs to LDA: a word-topic matrix and a document-topic matrix. For this tutorial, I uploaded previously saved LDA results that were saved as flat (csv) files.
 
 As an alternative to loading flat files, you can use the output of the `topicmodels` package `lda` function to create any word-topic and document-topic matrices. Take the output of your `lda` function and run the `posterior` function on the output.
 
@@ -48,7 +48,7 @@ colnames(word.topic) <- c("word",name$topic_name)
 colnames(author.topic) <- c("author_name",name$topic_name)
 ```
 
-Unlike standard LDA in which the abstracts were the documents, I ran an "author-centered" LDA in which all author's abstracts were combined and treated as one document per author. I ran this because our ultimate goal is to use topic modeling as an information retrieval process to determine researcher expertise by topic.
+Unlike standard LDA in which the abstracts were the documents, I ran an "author-centered" LDA in which all author's abstracts were combined and treated as one document per author. I ran this because my ultimate goal is to use topic modeling as an information retrieval process to determine researcher expertise by topic.
 
 
 Create static networks
