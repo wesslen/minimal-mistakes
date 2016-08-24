@@ -3,9 +3,6 @@ main:
   - title: "UNCC Twitter Data FAQ"
     url: "http://webpages.uncc.edu/rwesslen/blogs/twitter-faq.html"
 
-  - title: "Tags"
-    url: /tag
-
   - title: "About"
     url: /about
 
