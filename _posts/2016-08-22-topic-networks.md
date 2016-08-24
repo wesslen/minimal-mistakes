@@ -135,7 +135,7 @@ visIgraph(graph)
 
 This is a good start, but we need more details about the network.
 
-Let's go a different route by creating visNetwork data structure. To do this, we convert our igraph structure into a visNetwork data structure, then separating the list into two dataframes: nodes and edges.
+Let's go a different route by creating `visNetwork` data structure. To do this, we convert our igraph structure into a `visNetwork` data structure, then separating the list into two dataframes: nodes and edges.
 
 ``` r
 data <- toVisNetworkData(graph)
@@ -169,9 +169,6 @@ edges$title <- round(edges$edge.width,3)
 
 Finally, let's create our network with an interactive plot. You can zoom by using your mouse scroll wheel.
 
-The size of the bubble's is based on the network (centrality) measure **betweenness**. This measures how important that node is to the entire network's connectivity. In this example, larger nodes have a high betweenness, which implies the topic is more important in crossing across topic clusters.
-
-Find the largest nodes: these topics are the "glue" that keeps the network connected.
 
 ``` r
 visNetwork(nodes, edges) %>% 
@@ -180,13 +177,18 @@ visNetwork(nodes, edges) %>%
 
 {% include topic-network.html %}
 
-There are two dropdown menus. The first dropdown allows you to find any of the topics by name (top five words by word probability).
+First, note that there are two dropdown menus. The first dropdown allows you to find any of the topics by name (top five words by word probability).
 
 The second dropdown highlights the communities detected in our algorithm. Play around with this menu. Using the topic names (zoom in with mouse scroll), can you interpret what the topic community seem to be?
 
 The three largest seems to be: 
+
 *   Computing (gray, cluster 4)
 *   Social (green-blue, cluster 1)
 *   Health (yellow, cluster 2)
 
 What's unique about the smaller communities that are detected? Can you interpret them?
+
+Last, the size of the bubble's is based on the network (centrality) measure **betweenness**. This measures how important that node is to the entire network's connectivity. In this example, larger nodes have a high betweenness, which implies the topic is more important in crossing across topic clusters.
+
+Which are the largest nodes? These topics are the "glue" that keeps the network connected. What resesarch concepts may be connecting these topics to topics outside of their community?
