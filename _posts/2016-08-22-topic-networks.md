@@ -25,9 +25,7 @@ In this tutorial, I accomplish this by combining code from two awesome resources
 Data preparation
 ----------------
 
-Our first step is to load our topic matrices that are outputs of LDA. There are two outputs to LDA: a word-topic matrix and a document-topic matrix. To simplify it, let's load a csv from previously saved 
-
-Unlike standard LDA in which the abstracts were the documents, I ran an "author-centered" LDA in which all author's abstracts were combined and treated as one document per author. I ran this because our ultimate goal is to use topic modeling as an information retrieval process to determine researcher expertise by topic.
+Our first step is to load our topic matrices that are outputs of LDA. There are two outputs to LDA: a word-topic matrix and a document-topic matrix. For this tutorial, I uploaded previously saved LDA 
 
 As an alternative to loading flat files, you can use the output of the `topicmodels` package `lda` function to create any word-topic and document-topic matrices. Take the output of your `lda` function and run the `posterior` function on the output.
 
@@ -50,14 +48,15 @@ colnames(word.topic) <- c("word",name$topic_name)
 colnames(author.topic) <- c("author_name",name$topic_name)
 ```
 
+Unlike standard LDA in which the abstracts were the documents, I ran an "author-centered" LDA in which all author's abstracts were combined and treated as one document per author. I ran this because our ultimate goal is to use topic modeling as an information retrieval process to determine researcher expertise by topic.
+
+
 Create static networks
 ----------------------
 
 In the next step, I create a network using the correlation between each topic's word probabilities. 
 
 First, I decide to keep only relationships (edges) that have significant correlation (20%+ correlation). I use 20% because its the .05 level of statistical significance for a sample of 100 observations [Wikipedia](https://commons.wikimedia.org/wiki/File:Correlation_significance.svg#/media/File:Correlation_significance.svg).
-
-
 
 ``` r
 cor_threshold <- .2
@@ -91,7 +90,9 @@ title("Strength Between Topics Based On Word Probabilities", cex.main=.8)
 
 ![](/images/unnamed-chunk-4-1.png)
 
-Each number is the topic number. My first observation is that there looks like there are three main clusters.
+Each number represents a topic, each topic is numbered to identify it. 
+
+My first observation is that there appears to be three main clusters.
 
 Let's use [community detection](http://igraph.wikidot.com/community-detection-in-r), specifically the label propagation algorithm in igraph, to determine clusters within the network.
 
