@@ -1,12 +1,12 @@
 ---
 layout: single
-excerpt: "Social Media’s Role in Charlotte’s Protests" 
-title:  "How researching social media through data science may help understand Charlotte’s Protests"
+excerpt: "How researching social media through data science may help understand Charlotte’s Protests" 
+title:  "Social Media’s Role in Charlotte’s Protests"
 categories: [social media]
 tags: [visualization, Twitter, text mining, topic models]
 ---
 
-![](/images/charlotte-protest.png)
+![](/images/clt-protest.png)
 
 Overview
 ------------------------
