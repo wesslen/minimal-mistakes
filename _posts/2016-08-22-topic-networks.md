@@ -1,7 +1,7 @@
 ---
 layout: single
 excerpt: "Visualizing LDA Topic Correlation Network"
-title:  "Using R to detect communities of correlated Topics"
+title:  "Using R to detect communities of correlated topics"
 categories: [text mining]
 tags: [visualization, lda, community detection, social network]
 ---
