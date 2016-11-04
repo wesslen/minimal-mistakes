@@ -6,8 +6,6 @@ categories: [social media]
 tags: [visualization, Twitter, text mining, topic models]
 ---
 
-![](/images/clt-protest.png)
-
 Overview
 ------------------------
 
@@ -17,12 +15,14 @@ As a researcher studying computational social science at UNC Charlotte, these ar
 
 Like a detective who traces clues to solve a mystery, we examine the digital "footprints" left on social media to provide a broader, data-driven story for events like the aftermath of Keith Lamont Scott’s death. While our research on the Charlotte protests is early, I want to provide my initial observations, explain their implications and explore where further research may explain even more.
 
+![](/images/clt-protest.png)
+
 Timeline of Events
 ------------------------
 
 On Twitter, the minute-by-minute volume and content of messages with protest hashtags directly tracks key protest events. 
 
-For example, the first night’s Twitter volume grew as protests started on Old Concord Road (Point A on figure above) and started peaking around CMPD’s 11PM order for the crowd to disperse. At the same time, the content focused on issues around the shooting (e.g. “disabled”,“shot”, “book”, “reading”, “unarmed”).  
+For example, the first night’s Twitter volume grew as protests started on Old Concord Road (Point A on figure above) and started peaking around CMPD’s 11PM order for the crowd to disperse. At the same time, the content focused on issues around the shooting (e.g. “disabled”,“shot”, “book”, “reading”, “unarmed”).
 
 Wednesday night’s tweets surged after the shooting of Justin Carr (Point B) with messages of breaking news of “riot”, “tear gas” and “shot”. Tweet volumes remained high through the night as reports of a “man killed” increased and words like “emergency”, “rioters”, and “violence” emerged on Twitter, while Governor McCrory declared a state of emergency at 11PM (Point C). 
 
