@@ -6,11 +6,6 @@ categories: [social media]
 tags: [visualization, Twitter, text mining, topic models]
 ---
 
-How researching social media through data science may help understand Charlotte’s Protests?
-
-Overview
-------------------------
-
 What role did social media have in the events following the tragic death of Keith Lamont Scott? Did social media simply act as a mirror to reflect pre-existing anger and sentiment? Was its role more complex as real-time text, photo, and video posts shaped opinions; reinforced prior beliefs; and ultimately affected behaviors that turned peaceful protests violent?
 
 As a researcher studying computational social science at UNC Charlotte, these are all questions that perplex me. Through UNC Charlotte's [Data Science Initiative](http://dsi.uncc.edu), [Data Visualization Center](http://viscenter.uncc.edu/), and [Project Mosaic](http://projectmosaic.uncc.edu), the university's social science research initiative, I'm working with researchers across disciplines to address these questions by combining the insight of social science research with cutting-edge computer science tools sometimes labeled "big data" and "data science".
