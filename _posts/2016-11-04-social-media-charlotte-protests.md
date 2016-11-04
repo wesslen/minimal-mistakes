@@ -6,6 +6,8 @@ categories: [social media]
 tags: [visualization, Twitter, text mining, topic models]
 ---
 
+How researching social media through data science may help understand Charlotte’s Protests?
+
 Overview
 ------------------------
 
