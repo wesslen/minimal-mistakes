@@ -22,13 +22,13 @@ The plot above is an interactive network of the NC state senate's Twitter follow
 The table below shows the top 5 senators by the number of Twitter followers (FYI these counts are as of Dec 18th). Senator Jeff Jackson (Democrat - District 37) has the largest number of Twitter followers with 10,515 users. This explains why Senator Jackson's node is the largest in the network. Senator Phil Berger (Republican - District 26) is 2nd with 8,951 followers. Therefore, using Twitter followers as a measurement of influence, Senators Jackson and Berger have the widest network of followers.
 
 ``` r
-|name                 |Party      | followers_count| statuses_count| friends_count|
-|:--------------------|:----------|---------------:|--------------:|-------------:|
-|Sen. Jeff Jackson    |Democratic |           10515|           3816|          1452|
-|Senator Phil Berger  |Republican |            8951|           1824|           260|
-|Senator Andrew Brock |Republican |            4027|           4833|          3740|
-|Mike Woodard         |Democratic |            2664|           1113|          1419|
-|Dan Blue             |Democratic |            2615|            816|           486|
+| Senator (District) | Party     | Followers | Posts | Friends |
+|:-------------------|:----------|----------:|------:|--------:|
+|Jeff Jackson (37)   |Democratic |     10,515|  3,816|    1,452|
+|Phil Berger  (26)   |Republican |      8,951|  1,824|      260|
+|Andrew Brock (34)   |Republican |      4,027|  4,833|    3,740|
+|Mike Woodard (22)   |Democratic |      2,664|  1,113|    1,419|
+|Dan Blue     (14)   |Democratic |      2,615|    816|      486|
 ```
 
 Each edge (line) represents Twitter followship. Therefore, connections represent whether a given senator follows or is followed by his or her Senate colleagues. Senators with a lot of connections represent those who follow many of his or her colleagues while those senators with few edges follow few colleagues. Related, the position of each senator is a function of the number of connections. For example, Senator Jackson is in the center of the network because he follows nearly all of his Senate colleagues who are on Twitter. 
