@@ -10,10 +10,10 @@ The recent election renewed my interest in politics, especially North Carolina p
 
 In this example, I am only considering how NC state senators follow one another and exclude all non-senators from the analysis. I do this for simplicity but I could generalize the network by adding non-senators -- the problem is the network gets large very quickly.
 
-{% include StateSenateTwitterNetwork.html %}
-
 Twitter Follower Network
 ------------------------
+
+{% include StateSenateTwitterNetwork.html %}
 
 My first task was to pull Twitter follower data through Twitter's public API and the `twitteR` package in R. See my [earlier post](https://wesslen.github.io/twitter/twitter-get-followers/) for instructions on how to pull the data on your own. After pulling all of the followers for each senators' Twitter profile, I kept only the senators to minimize the network.
 
@@ -22,14 +22,13 @@ The plot above is an interactive network of the NC state senate's Twitter follow
 The table below shows the top 5 senators by the number of Twitter followers (FYI these counts are as of Dec 18th). Senator Jeff Jackson (Democrat - District 37) has the largest number of Twitter followers with 10,515 users. This explains why Senator Jackson's node is the largest in the network. Senator Phil Berger (Republican - District 26) is 2nd with 8,951 followers. Therefore, using Twitter followers as a measurement of influence, Senators Jackson and Berger have the widest network of followers.
 
 ``` r
-|id            |name                 |Party      | District| followers_count| statuses_count| friends_count|
-|:-------------|:--------------------|:----------|--------:|---------------:|--------------:|-------------:|
-|jeffjacksonnc |Sen. Jeff Jackson    |Democratic |       37|           10515|           3816|          1452|
-|senatorberger |Senator Phil Berger  |Republican |       26|            8951|           1824|           260|
-|andrewbrock   |Senator Andrew Brock |Republican |       34|            4027|           4833|          3740|
-|mikewoodard   |Mike Woodard         |Democratic |       22|            2664|           1113|          1419|
-|danbluenc     |Dan Blue             |Democratic |       14|            2615|            816|           486|
-```
+|name                 |Party      | followers_count| statuses_count| friends_count|
+|:--------------------|:----------|---------------:|--------------:|-------------:|
+|Sen. Jeff Jackson    |Democratic |           10515|           3816|          1452|
+|Senator Phil Berger  |Republican |            8951|           1824|           260|
+|Senator Andrew Brock |Republican |            4027|           4833|          3740|
+|Mike Woodard         |Democratic |            2664|           1113|          1419|
+|Dan Blue             |Democratic |            2615|            816|           486|```
 
 Each edge (line) represents Twitter followship. Therefore, connections represent whether a given senator follows or is followed by his or her Senate colleagues. Senators with a lot of connections represent those who follow many of his or her colleagues while those senators with few edges follow few colleagues. Related, the position of each senator is a function of the number of connections. For example, Senator Jackson is in the center of the network because he follows nearly all of his Senate colleagues who are on Twitter. 
 
