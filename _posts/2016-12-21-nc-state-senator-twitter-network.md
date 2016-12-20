@@ -23,7 +23,7 @@ My first task was to pull Twitter follower data through Twitter's public API and
 
 The plot above is an interactive network of the NC state senate's Twitter follower network. Each node (dot) is a NC state senator. The color represents which the senator's political party: red for Republican, blue for Democrat. The size of the node represents how many Twitter followers (in total, not just from other state senators). Therefore, the largest nodes are the senators who have the largest follower networks.
 
-The table below shows the top 5 senators by the number of Twitter followers (FYI these counts are as of Dec 18th). Senator Jeff Jackson (Democrat - District 37) has the largest number of Twitter followers with 10,515 users. This explains why Senator Jackson's node is the largest in the network. Senator Phil Berger (Republican - District 26) is 2nd with 8,951 followers. Therefore, using Twitter followers as a measurement of influence, Senators Jackson and Berger have the widest network of followers.
+The table below shows the top 5 senators by the number of Twitter followers. Senator Jeff Jackson (Democrat - District 37) has the largest number of Twitter followers with 10,515 users. This explains why Senator Jackson's node is the largest in the network. Senator Phil Berger (Republican - District 26) is 2nd with 8,951 followers. Therefore, one could argue that Senators Jackson and Berger have the widest network influence as measured by the number of followers.
 
 ``` r
 | Senator (District) | Party     | Followers | Posts | Friends |
@@ -34,6 +34,7 @@ The table below shows the top 5 senators by the number of Twitter followers (FYI
 |Mike Woodard (22)   |Democratic |      2,664|  1,113|    1,419|
 |Dan Blue     (14)   |Democratic |      2,615|    816|      486|
 ```
+Follower, posts and friend counts are as of Dec 18, 2016.
 
 Each edge (line) represents Twitter followship. Therefore, connections represent whether a given senator follows or is followed by his or her Senate colleagues. Senators with a lot of connections represent those who follow many of his or her colleagues while those senators with few edges follow few colleagues. Related, the position of each senator is a function of the number of connections. For example, Senator Jackson is in the center of the network because he follows nearly all of his Senate colleagues who are on Twitter. 
 
