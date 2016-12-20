@@ -19,6 +19,8 @@ My first task was to pull Twitter follower data through Twitter's public API and
 
 {% include StateSenateTwitterNetwork.html %}
 
+ 
+
 The plot above is an interactive network of the NC state senate's Twitter follower network. Each node (dot) is a NC state senator. The color represents which the senator's political party: red for Republican, blue for Democrat. The size of the node represents how many Twitter followers (in total, not just from other state senators). Therefore, the largest nodes are the senators who have the largest follower networks.
 
 The table below shows the top 5 senators by the number of Twitter followers. Senator Jeff Jackson (Democrat - District 37) has the largest number of Twitter followers with 10,515 users. This explains why Senator Jackson's node is the largest in the network. Senator Phil Berger (Republican - District 26) is 2nd with 8,951 followers. Therefore, one could argue that Senators Jackson and Berger have the widest network influence as measured by the number of followers.
