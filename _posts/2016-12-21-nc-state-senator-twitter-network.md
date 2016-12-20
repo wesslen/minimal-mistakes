@@ -8,7 +8,9 @@ tags: [visualization, Twitter, social network, political science]
 
 The recent election renewed my interest in politics, especially North Carolina politics. To start, I wanted to consider the social media presence of the NC General Assembly Senate members. I chose the NC Senate for simplicity purposes because there are only 50 Senators and to start I needed to manually collect the Senators' Twitter usernames and Facebook public page information. The list includes 2016 senators and not has not been updated for new senators who will be taking office next year. I found that 36 Senators had Twitter accounts and 39 Senators had (public) Facebook pages. 
 
-In this example, I am only considering how NC state senators follow one another and exclude all non-senators from the analysis. I do this for simplicity but I could generalize the network by adding non-senators -- the problem is the network gets large very quickly.
+In this example, I am only considering how NC state senators follow one another on Twitter and exclude all non-senators from the analysis. I do this for simplicity but I could generalize the network by adding non-senators -- the problem is the network gets large very quickly. I don't consider yet the content of posts or Facebook data but I'm in the process of collecting the data.
+
+(Note: it will take a few seconds for the interactive network below to load)
 
 {% include StateSenateTwitterNetwork.html %}
 
