@@ -14,6 +14,8 @@ In this example, I am only considering how NC state senators follow one another 
 
 {% include StateSenateTwitterNetwork.html %}
 
+
+
 Twitter Follower Network
 ------------------------
 
