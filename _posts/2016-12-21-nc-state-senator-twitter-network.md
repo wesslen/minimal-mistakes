@@ -1,6 +1,6 @@
 ---
 layout: single
-excerpt: "Which NC State Senator has the Largest Presence on Social Media?" 
+excerpt: "How connected are NC state senators on Twitter?" 
 title:  "Analyzing the Twitter Network for NC Senate Members"
 categories: [social media]
 tags: [visualization, Twitter, social network, political science]
