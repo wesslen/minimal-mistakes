@@ -10,16 +10,14 @@ The recent election renewed my interest in politics, especially North Carolina p
 
 In this example, I am only considering how NC state senators follow one another on Twitter and exclude all non-senators from the analysis. I do this for simplicity but I could generalize the network by adding non-senators -- the problem is the network gets large very quickly. I don't consider yet the content of posts or Facebook data but I'm in the process of collecting the data.
 
-(Note: it will take a few seconds for the interactive network below to load)
-
-{% include StateSenateTwitterNetwork.html %}
-
-
-
 Twitter Follower Network
 ------------------------
 
 My first task was to pull Twitter follower data through Twitter's public API and the `twitteR` package in R. See my [earlier post](https://wesslen.github.io/twitter/twitter-get-followers/) for instructions on how to pull the data on your own. After pulling all of the followers for each senators' Twitter profile, I kept only the senators to minimize the network.
+
+(Note: it will take a few seconds for the interactive network below to load)
+
+{% include StateSenateTwitterNetwork.html %}
 
 The plot above is an interactive network of the NC state senate's Twitter follower network. Each node (dot) is a NC state senator. The color represents which the senator's political party: red for Republican, blue for Democrat. The size of the node represents how many Twitter followers (in total, not just from other state senators). Therefore, the largest nodes are the senators who have the largest follower networks.
 
