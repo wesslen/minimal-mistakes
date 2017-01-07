@@ -1,6 +1,6 @@
 ---
 layout: single
-excerpt: "How does party effect what topics senators discuss on Facebook?" 
+excerpt: "How does party affect what topics senators discuss on Facebook?" 
 title:  "Structural Topic Modeling to analyze NC State Senators' Facebook Posts"
 categories: [social media]
 tags: [visualization, Facebook, topic modeling, political science]
