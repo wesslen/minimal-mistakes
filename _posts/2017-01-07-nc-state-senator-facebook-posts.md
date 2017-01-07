@@ -27,7 +27,7 @@ Interestingly, note that interwoven within the "bathroom safety" topics are word
 Topics
 ------------------------
 
-The dataset I used was pulled through Facebook public API using R's `Rfacebook` package. I manually identified 39 state senators' Facebook public pages. I limited my data to only posts between Jan 1 2015 and Dec 23 2016 (the data was pulled on that day). I also limited my analysis to only members of the 2015-2016 term, and excluded any candidates who were not elected as well as any members who resigned before the end of their term. In total, this amounted to analyzing 6,902 Facebook posts over the two years. 
+The dataset I used was pulled through Facebook public API using R's `Rfacebook` package. I manually identified 39 state senators' Facebook public pages. I limited my data to only posts between Jan 1 2015 and Dec 23 2016 (the data was pulled on that day). I also limited my analysis to only members of the 2015-2016 term, and excluded any candidates who were not elected as well as any members who resigned before the end of their term. In total, this amounted to analyzing 7,813 Facebook posts over the two years. 
 
 ``` r
 | Party      | # of Senators | # of FB Accts | # of Posts | Avg Likes | Avg Comments | Avg Shares |
