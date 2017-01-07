@@ -6,7 +6,7 @@ categories: [social media]
 tags: [visualization, Facebook, topic modeling, political science]
 ---
 
-Following my previous post ([see]), in this post I'm going to analyze the public Facebook posts of North Carolina state senators. I'm going to use a machine learning algorithm framework called Structural Topic Modeling (or STM for short) to measure, with statistical significance, the impact of party affiliation on the prevalence of topics discussed. 
+Following my previous post (see [previous post](https://wesslen.github.io/social%20media/nc-state-senator-twitter-network/)), in this post I'm going to analyze the public Facebook posts of North Carolina state senators. I'm going to use a machine learning algorithm framework called Structural Topic Modeling (or STM for short) to measure, with statistical significance, the impact of party affiliation on the prevalence of topics discussed. 
 
 STM is a recent extension of the popular topic modeling framework, a family of unsupervised algorithms that have been championed by computer scientists over the last decade. Topic models work by identifying clusters of words that co-occur together that can be interpreted as topics. For example, here are two topics that the model identified with my interpretation (called a label).
 
