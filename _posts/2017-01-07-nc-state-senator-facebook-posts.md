@@ -54,14 +54,16 @@ That's where topic modeling (and STM) can come in. Unlike human coding methods t
 
 For my analysis, I ran a 40-topic model that identifies the 40 most salient topics. The chart below outlines the size of the topics as a probability (so they all sum to one) for each topic. For example, the largest topic is about 5%. The words that best describe that topic are: "day", "us", "family", "today", "time". While these words only give us a glimpse to understand each topic, the top five words can generally give us a good idea of the topic. 
 
+![STM Topics](/images/STM-senate3.png)
+
 To simplify my results, I examined the most likely words for all forty topics and provided interpretative labels. For more detals on the words, see [Part 2 Code](https://rawgit.com/wesslen/NCStateSenateFacebook/master/code/STM-ncsenate-facebook-part2.html). 
 
 Measuring the Effect of Party and Time on Topic Prevalence
 ------------------------
 
-![STM Topics](/images/STM-senate3.png)
+Structural topic modeling comes in when we want to consider the effect that these topic proportions change relative to political party. The next chart explains these results.
 
-Now structural topic modeling comes in when we want to consider the effect that these topic proportions change relative to political party. The next chart explains these results.
+!["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate4.png)
 
 This chart shows the expected difference in each topic's probability given a senator's party. Therefore, each dot is the point estimated change along with a line that indicates an estimate's 95% confidence interval. The labels are interpretations based on the most likely words per topic.
 
@@ -69,15 +71,15 @@ Topics on the left hand side are more Republican topics like "Presidential Elect
 
 Further, another important observation is whether a topic's estimated difference confidence interval is not within the zero value (e.g. "#NCPOL / #NCGA", "Roy Cooper", "Church", "Get Out the Vote"). For topics, we cannot conclude that they're overwhelming Democrat or Republican, and seem to be shared by both members of both party's social media strategy.
 
-!["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate4.png)
-
 In addition to the party, we can also control for time as it's likely topics evolve over time.
 
 The plot below provides the STM estimate of the effect month has on the likelihood of the top four Republican topics. 
 
-!["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate5.png)
+![Republican Topics - Effect of Time](/images/STM-senate5.png)
 
-!["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate6.png)
+Or conversely we can look at the four most likely Democratic topics.
+
+![Democratic Topics - Effect of Time](/images/STM-senate6.png)
 
 Correlation Network
 ------------------------
