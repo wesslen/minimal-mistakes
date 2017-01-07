@@ -6,7 +6,7 @@ categories: [social media]
 tags: [visualization, Facebook, topic modeling, political science]
 ---
 
-Following my previous post (see [previous post](https://wesslen.github.io/social%20media/nc-state-senator-twitter-network/)), in this post I'm going to analyze the public Facebook posts of North Carolina state senators. I'm going to use a machine learning algorithm framework called Structural Topic Modeling (or STM for short) to measure, with statistical significance, the impact of party affiliation on the prevalence of topics discussed. 
+Following my [previous post](https://wesslen.github.io/social%20media/nc-state-senator-twitter-network/), in this post I'm going to analyze the public Facebook posts of North Carolina state senators. I'm going to use a machine learning algorithm framework called Structural Topic Modeling (or STM for short) to measure, with statistical significance, the impact of party affiliation on the prevalence of topics discussed. 
 
 STM is a recent extension of the popular topic modeling framework, a family of unsupervised algorithms that have been championed by computer scientists over the last decade. Topic models work by identifying clusters of words that co-occur together that can be interpreted as topics. For example, here are two topics that the model identified with my interpretation (called a label).
 
@@ -67,7 +67,7 @@ Structural topic modeling comes in when we want to consider the effect that thes
 
 !["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate4.png)
 
-This chart shows the expected difference in each topic's probability given a senator's party. Therefore, each dot is the point estimated change along with a line that indicates an estimate's 95% confidence interval. The labels are interpretations based on the most likely words per topic.
+This chart shows the expected difference in each topic's probability given a senator's party. Each dot is the estimated point difference with a line that indicates the estimate's 95% confidence interval. The labels are interpretations based on the most likely words per topic.
 
 Topics on the left hand side are more Republican topics like "Presidential Election", "Bathroom Safety", and the "Economy/Jobs". On the other hand, three topics much more likely to be a Democratic senator include "HB2", "Gerrymandering", and "#WeAreNotThis", which is a hashtag movement opposing Republican's legislation surrounding HB2 and other bills.
 
