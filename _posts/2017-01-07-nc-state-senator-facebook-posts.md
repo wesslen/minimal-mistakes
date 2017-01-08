@@ -73,7 +73,7 @@ This chart shows the expected difference in each topic's probability given a sen
 
 Topics on the left hand side are more Republican topics like "Presidential Election", "Bathroom Safety", and the "Economy/Jobs". On the other hand, three topics much more likely to be a Democratic senator include "HB2", "Gerrymandering", and "#WeAreNotThis", which is a hashtag movement opposing Republican's legislation surrounding HB2 and other bills.
 
-Further, another important observation is whether a topic's estimated difference confidence interval is not within the zero value (e.g. "#NCPOL / #NCGA", "Roy Cooper", "Church", "Get Out the Vote"). For topics, we cannot conclude that they're overwhelming Democrat or Republican, and seem to be shared by both members of both party's social media strategy.
+Further, another important observation is whether a topic's estimated difference confidence interval is not within the zero value (e.g. "#NCPOL / #NCGA", "Roy Cooper", "Church", "Get Out the Vote"). For those topics, we cannot conclude that they're overwhelming Democrat or Republican. 
 
 In addition to the party, we can also control for time as it's likely topics evolve over time.
 
