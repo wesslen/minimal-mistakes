@@ -75,7 +75,7 @@ Further, another important observation is whether a topic's estimated difference
 
 In addition to the party, we can also control for time as it's likely topics evolve over time.
 
-The plot below provides the STM estimate of the effect month has on the likelihood of the top four Republican topics. 
+The plot below provides the STM estimate of the effect month has on the likelihood of the top four Republican topics (with 95% Confidence Intervals). 
 
 ![Republican Topics - Effect of Time](/images/STM-senate5.png)
 
