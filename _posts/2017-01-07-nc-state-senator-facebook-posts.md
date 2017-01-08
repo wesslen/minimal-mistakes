@@ -18,13 +18,15 @@ For readers interested in the code and more details, I've provided a [GitHub sit
 
 One of the model's outputs are the words ranked by how likely they are for individual topics. This is incredibly helpful as the topics are determined by the data, not through manually coding that are subject to high time and monetary costs, inconsistencies and biases, and overall more difficult to scale for "big data". One downside of this approach is that the interpretation of the topics is up to the individual, which blends the science (machine learning) with the art (human insight) of using topic models. However, some topics are obvious while others require more thought.
 
+There are plenty of ways to visualize topics to help interpret them like a comparison plot in which most distinctive words (relative to the two topics) are on either extreme while the words used in both topics are closer to the middle.
+
 ![Comparison Plot of HB2 and Bathroom Safety Topics](/images/STM-senate7.png)
 
-In the case above, the two topics are pretty clear. The first shows words that are clearly related to HB2 -- specifically rhetoric against the law from Democrat legislators that are calling for its repeal and emphasize words focusing on the "gender", "transgender" and "lgbt" aspects of the law. The second topic is also clear that it represents the opposing side of the issue focusing on (for a lack of better label) "bathroom safety" by focusing on the "safety" risks to "girls" in "bathrooms" and "locker rooms". Obviously, this topic is the focus of Republican defenders of the law. 
+In the case above, the two topics are pretty clear. The right hand side shows words that are clearly related to HB2 -- specifically rhetoric against the law from Democrat legislators that are calling for its repeal and emphasize words focusing on the "gender", "transgender" and "lgbt" aspects of the law. 
 
-Interestingly, note that interwoven within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "please share" or "sign [a] petition". 
+The topic on the left hand side represents the opposing side of the issue focusing on (for a lack of better label) "bathroom safety" by focusing on the "safety" risks to "girls" in "bathrooms" and "locker rooms". Obviously, this topic is the focus of Republican defenders of the law. 
 
-There are plenty of ways to visualize topics like a comparison plot in which most distinctive words (relative to the two topics) are on either extreme while the words used in both topics are closer to the middle.
+Interestingly, note that interwoven within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "share" or "sign" a petition. 
 
 Topics
 ------------------------
