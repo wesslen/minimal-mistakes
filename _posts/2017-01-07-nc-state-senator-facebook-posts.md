@@ -16,7 +16,7 @@ Interestingly, STM is a new take on topic modeling but from a social scientist a
 
 For readers interested in the code and more details, I've provided a [GitHub site](https://github.com/wesslen/NCStateSenateFacebook) including two RMarkdown output (html) files ([Part 1](https://htmlpreview.github.io/?https://github.com/wesslen/NCStateSenateFacebook/blob/master/code/STM-ncsenate-facebook-part1.html) and [Part 2](https://rawgit.com/wesslen/NCStateSenateFacebook/master/code/STM-ncsenate-facebook-part2.html) )
 
-One of the model's outputs are the words ranked by how likely they are for set of hidden topics. This is incredibly helpful as the topics are determined by the data, not through manually coding that are subject to high time and monetary costs, inconsistencies and biases, and overall more difficult to scale for "big data". One downside of this approach is that the interpretation of the topics is up to the individual, which blends the science (machine learning) with the art (human insight) of using topic models.
+One of the model's outputs are the words ranked by how likely they are for individual topics. This is incredibly helpful as the topics are determined by the data, not through manually coding that are subject to high time and monetary costs, inconsistencies and biases, and overall more difficult to scale for "big data". One downside of this approach is that the interpretation of the topics is up to the individual, which blends the science (machine learning) with the art (human insight) of using topic models. However, some topics are obvious while others require more thought.
 
 ![Comparison Plot of HB2 and Bathroom Safety Topics](/images/STM-senate7.png)
 
