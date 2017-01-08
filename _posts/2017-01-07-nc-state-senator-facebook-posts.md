@@ -10,21 +10,21 @@ Following my [previous post](https://wesslen.github.io/social%20media/nc-state-s
 
 STM is a recent extension of the popular topic modeling framework, a family of unsupervised algorithms that have been championed by computer scientists over the last decade. Topic models work by identifying clusters of words that co-occur together that can be interpreted as topics. For example, here are two topics that the model identified with my interpretation (called a label).
 
+!["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate1.png)
+
 Interestingly, STM is a new take on topic modeling but from a social scientist approach, building a regression-like framework to test the impact of document attributes (e.g. author, party affiliation, time, location). In my case, I'm going to determine what topics are uniquely Republican or Democratic for NC State Senators. 
 
 For readers interested in the code and more details, I've provided a [GitHub site](https://github.com/wesslen/NCStateSenateFacebook) including two RMarkdown output (html) files ([Part 1](https://htmlpreview.github.io/?https://github.com/wesslen/NCStateSenateFacebook/blob/master/code/STM-ncsenate-facebook-part1.html) and [Part 2](https://rawgit.com/wesslen/NCStateSenateFacebook/master/code/STM-ncsenate-facebook-part2.html) )
 
 One of the model's outputs are the words ranked by how likely they are for set of hidden topics. This is incredibly helpful as the topics are determined by the data, not through manually coding that are subject to high time and monetary costs, inconsistencies and biases, and overall more difficult to scale for "big data". One downside of this approach is that the interpretation of the topics is up to the individual, which blends the science (machine learning) with the art (human insight) of using topic models.
 
-!["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate1.png)
+![Comparison Plot of HB2 and Bathroom Safety Topics](/images/STM-senate7.png)
 
 In the case above, the two topics are pretty clear. The first shows words that are clearly related to HB2 -- specifically rhetoric against the law from Democrat legislators that are calling for its repeal and emphasize words focusing on the "gender", "transgender" and "lgbt" aspects of the law. The second topic is also clear that it represents the opposing side of the issue focusing on (for a lack of better label) "bathroom safety" by focusing on the "safety" risks to "girls" in "bathrooms" and "locker rooms". Obviously, this topic is the focus of Republican defenders of the law. 
 
 Interestingly, note that interwoven within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "please share" or "sign [a] petition". 
 
 There are plenty of ways to visualize topics like a comparison plot in which most distinctive words (relative to the two topics) are on either extreme while the words used in both topics are closer to the middle.
-
-![Comparison Plot of HB2 and Bathroom Safety Topics](/images/STM-senate7.png)
 
 Topics
 ------------------------
