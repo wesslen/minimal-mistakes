@@ -8,11 +8,11 @@ tags: [visualization, Facebook, topic modeling, political science]
 
 Following my [previous post](https://wesslen.github.io/social%20media/nc-state-senator-twitter-network/), in this post I'm going to analyze the public Facebook posts of North Carolina state senators. I'm going to use a machine learning algorithm framework called Structural Topic Modeling (or STM for short) to measure, with statistical significance, the impact of party affiliation on the prevalence of topics discussed. 
 
-STM is a recent extension of the popular topic modeling framework, a family of unsupervised algorithms that have been championed by computer scientists over the last decade. Topic models work by identifying clusters of words that co-occur together that can be interpreted as topics. For example, here are two topics that the model identified with my interpretation (called a label).
+STM is a recent extension of the popular topic modeling framework, a family of unsupervised algorithms that have been championed by computer scientists over the last decade. Topic models work by identifying clusters of words that co-occur together that can be interpreted as topics. For example, here are two topics that the model identified with my interpretation (called a label) as being "HB2" and "Bathroom Safety" for the respective topics.
 
 !["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate1.png)
 
-Interestingly, STM is a new take on topic modeling but from a social scientist approach, building a regression-like framework to test the impact of document attributes (e.g. author, party affiliation, time, location). In my case, I'm going to determine what topics are uniquely Republican or Democratic for NC State Senators. 
+Interestingly, STM is a new take on topic modeling but from a social scientist approach, building a regression-like framework to test the impact of document attributes (e.g. author, time, location). In my case, I'm going to analyze the effect of political party has on what topics a state senator posts on Facebook. As a secondary attribute, I'll also consider the effect that time (month) of the post had on the topic.
 
 For readers interested in the code and more details, I've provided a [GitHub site](https://github.com/wesslen/NCStateSenateFacebook) including two RMarkdown output (html) files ([Part 1](https://htmlpreview.github.io/?https://github.com/wesslen/NCStateSenateFacebook/blob/master/code/STM-ncsenate-facebook-part1.html) and [Part 2](https://rawgit.com/wesslen/NCStateSenateFacebook/master/code/STM-ncsenate-facebook-part2.html) )
 
@@ -26,7 +26,7 @@ In the case above, the two topics are pretty clear. The right hand side shows wo
 
 The topic on the left hand side represents the opposing side of the issue focusing on (for a lack of better label) "bathroom safety" by focusing on the "safety" risks to "girls" in "bathrooms" and "locker rooms". Obviously, this topic is the focus of Republican defenders of the law. 
 
-Interestingly, note that interwoven within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "share" or "sign" a petition. 
+Interestingly, note that interwoven within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "share" or "sign" a petition as compared to the "HB2" topic. 
 
 Topics
 ------------------------
@@ -44,9 +44,9 @@ The table above provides some important numbers to start. First, Republican outn
 
 However, the number of FB posts are about the same over the last two years, indicating that on average Democratic state senators are more active with nearly 285 posts per active Democratic senator relative to 153 FB posts per active Republican senator.
 
-Further, Democratic posts tend to get more social response than Republican with, on average, more likes, comments and shares. If you're more interested in which senators are the "leaders" on Facebook, see [Part 1 code](https://htmlpreview.github.io/?https://github.com/wesslen/NCStateSenateFacebook/blob/master/code/STM-ncsenate-facebook-part1.html).
+Further, Democratic posts tend to get more of a social response than Republican with, on average, more likes, comments and shares. If you're more interested in which senators are the "leaders" on Facebook, see [Part 1 code](https://htmlpreview.github.io/?https://github.com/wesslen/NCStateSenateFacebook/blob/master/code/STM-ncsenate-facebook-part1.html).
 
-How have the posts changed over time?
+How have the number of posts changed over time?
 
 Let's look at the chart below. Each line represents the sum of all posts by party, the blue line is the Democratic posts and the red line is the Republican posts.
 
@@ -54,7 +54,7 @@ Let's look at the chart below. Each line represents the sum of all posts by part
 
 Republicans greatly expanded through posts for the 2016 election after having fewer posts than Democrats in 2015. So Republican picked up their Facebook content for the election, but this raises the question: what were they talking about?
 
-That's where topic modeling (and STM) can come in. Unlike human coding methods to analyze text that require you to know in advance what the topics are, topic modeling let's the data to speak for itself and identify the topics as word co-occurrence clusters.
+That's where topic modeling (and STM) comes in. Unlike human coding methods to analyze text that require you to know in advance what the topics are, topic modeling let's the data to speak for itself and the algorithm identifies topics as word co-occurrence clusters.
 
 For my analysis, I ran a 40-topic model that identifies the 40 most salient topics. The chart below outlines the size of the topics as a probability (so they all sum to one) for each topic. For example, the largest topic is about 5%. The words that best describe that topic are: "day", "us", "family", "today", "time". While these words only give us a glimpse to understand each topic, the top five words can generally give us a good idea of the topic. 
 
@@ -65,7 +65,7 @@ To simplify my results, I examined the most likely words for all forty topics an
 Measuring the Effect of Party and Time on Topic Prevalence
 ------------------------
 
-Structural topic modeling comes in when we want to consider the effect that these topic proportions change relative to political party. The next chart explains these results.
+Structural topic modeling (rather than standard topic modeling like LDA) comes in when we want to consider the effect that these topic proportions change relative to political party. The next chart explains these results.
 
 !["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate4.png)
 
@@ -97,7 +97,7 @@ The plot above is a correlated topic network. Each dot (node) is a topic, with i
 Shiny App
 ------------------------
 
-The interactive plot above was created through [Shiny](http://shiny.rstudio.com), a phenomenal web application framework for R users. One project I'm working on is creating a web-based visual interface to analyze structural topic model results. For example, In one demo, you could click the above network, which then creates pop-up for the top five posts (through a Facebook URL) that best exemplify this topic (highest probability), allowing user to quickly look-up and discover new interpretations of the topics.
+The interactive plot above was created through [Shiny](http://shiny.rstudio.com), a phenomenal web application framework for R users. One project I'm working on is creating a web-based visual interface to analyze structural topic model results. For example, you could click the above network, which then creates pop-up for the top five posts (through a Facebook URL) that best exemplify this topic (highest probability). Such interaction allows a user to quickly drill down from the topics down to examples to further knowledge discovery and improve topic interpretation.
 
 This is just the tip of iceberg and there's much deeper paths to go (e.g. find the correlation between likes, shares and comments with what topics are used), but that's it for now.
 
