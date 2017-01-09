@@ -97,7 +97,7 @@ The plot above is a correlated topic network. Each dot (node) is a topic, with i
 Shiny App
 ------------------------
 
-The interactive plot above was created through [Shiny](http://shiny.rstudio.com), a phenomenal web application framework for R users. One project I'm working on is creating a web-based visual interface to analyze structural topic model results. For example, you could click the above network, which then creates pop-up for the top five posts (through a Facebook URL) that best exemplify this topic (highest probability). Such interaction allows a user to quickly drill down from the topics down to examples to further knowledge discovery and improve topic interpretation.
+The interactive plot above was created through [Shiny](http://shiny.rstudio.com), a phenomenal web application framework for R users. One project I'm working on is creating a web-based visual interface to analyze structural topic model results. For example, you could click the above network, which then creates pop-up for the top five posts (through a Facebook URL) that best exemplify this topic (highest probability). Such interaction allows a user to quickly drill down from the topics down to examples to improve topic interpretations and facilitate a deeper understanding of the topics.
 
 This is just the tip of iceberg and there's much deeper paths to go (e.g. find the correlation between likes, shares and comments with what topics are used), but that's it for now.
 
