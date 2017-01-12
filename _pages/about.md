@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 layout: single
 excerpt: "Who I am"
 sitemap: false
