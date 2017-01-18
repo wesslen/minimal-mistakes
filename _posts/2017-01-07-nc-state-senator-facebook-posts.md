@@ -52,7 +52,7 @@ Let's look at the chart below. Each line represents the sum of all posts by part
 
 !["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate2.png)
 
-Republicans greatly expanded through posts for the 2016 election after having fewer posts than Democrats in 2015. So Republican picked up their Facebook content for the election, but this raises the question: what were they talking about?
+Republicans greatly expanded their posts for the 2016 election after having fewer posts than Democrats in 2015. Republicans picked up their Facebook content for the election, but this raises the question: what were they talking about?
 
 That's where topic modeling (and STM) comes in. Unlike human coding methods to analyze text that require you to know in advance what the topics are, topic modeling let's the data to speak for itself and the algorithm identifies topics as word co-occurrence clusters.
 
@@ -65,17 +65,17 @@ To simplify my results, I examined the most likely words for all forty topics an
 Measuring the Effect of Party and Time on Topic Prevalence
 ------------------------
 
-Structural topic modeling (rather than standard topic modeling like LDA) comes in when we want to consider the effect that these topic proportions change relative to political party. The next chart explains these results.
+Structural topic modeling (rather than "vanilla" topic modeling like LDA) comes in when we want to consider the effect of political party on the topic proportions. The next chart explains these results.
 
 !["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate4.png)
 
 This chart shows the expected difference in each topic's probability given a senator's party. Each dot is the estimated point difference with a line that indicates the estimate's 95% confidence interval. The labels are interpretations based on the most likely words per topic.
 
-Topics on the left hand side are more Republican topics like "Presidential Election", "Bathroom Safety", and the "Economy/Jobs". On the other hand, three topics much more likely to be a Democratic senator include "HB2", "Gerrymandering", and "#WeAreNotThis", which is a hashtag movement opposing Republican's legislation surrounding HB2 and other bills.
+Topics on the left side are more Republican topics like "Presidential Election", "Bathroom Safety", and the "Economy/Jobs". On the other right side, "HB2", "Gerrymandering", and "#WeAreNotThis", a hashtag movement opposing Republican's legislation, are Democratic party topics.
 
-Further, another important observation is whether a topic's estimated difference confidence interval is not within the zero value (e.g. "#NCPOL / #NCGA", "Roy Cooper", "Church", "Get Out the Vote"). For those topics, we cannot conclude that they're overwhelming Democrat or Republican. 
+Alternatively, we can examine the "neutral" topics, i.e. topics whose estimated difference is not significantly different than zero (e.g. "#NCPOL / #NCGA", "Roy Cooper", "Church", "Get Out the Vote"). For those topics, we cannot conclude that they're a more Democrat or Republican topic. 
 
-In addition to the party, we can also control for time as it's likely topics evolve over time.
+We can also control for time as topics evolve over time.
 
 The plot below provides the STM estimate of the effect month has on the likelihood of the top four Republican topics (with 95% Confidence Intervals). 
 
