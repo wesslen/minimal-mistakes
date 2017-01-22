@@ -1,7 +1,7 @@
 ---
 layout: single
 excerpt: "How connected are NC state senators on Twitter?" 
-title:  "Analyzing the Twitter Network for NC State Senators"
+title:  "Analyzing the Twitter Network of NC State Senators"
 categories: [social media]
 tags: [visualization, Twitter, social network, political science]
 ---
