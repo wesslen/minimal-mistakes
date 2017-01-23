@@ -12,7 +12,7 @@ STM is a recent extension of the popular topic modeling framework, a family of u
 
 !["HB2" and "Bathroom Safety" Topics from STM Analysis of NC State Senators' Facebook Posts](/images/STM-senate1.png)
 
-Interestingly, STM is a new take on topic modeling but from a social scientist perspective, building a regression-like (causal inference) framework to test the impact of document attributes (e.g. author, time, location) on what topics are discussed. In my case, I'm going to analyze the effect of political party has on what topics a state senator posts on Facebook. As a secondary attribute, I'll also consider the effect that time (month) of the post had on the likelihood of the topic.
+STM is a new take on topic modeling but from a social scientist perspective, building a regression-like (causal inference) framework to test the impact of document attributes (e.g. author, time, location) on what topics are discussed. In my case, I'm going to analyze the effect of political party has on the topics a state senator posts on Facebook. As a secondary attribute, I'll also consider the effect that time (month) on the topics posted.
 
 For readers interested in the code and more details, I've provided a [GitHub site](https://github.com/wesslen/NCStateSenateFacebook) including two RMarkdown output (html) files ([Part 1](https://htmlpreview.github.io/?https://github.com/wesslen/NCStateSenateFacebook/blob/master/code/STM-ncsenate-facebook-part1.html) and [Part 2](https://rawgit.com/wesslen/NCStateSenateFacebook/master/code/STM-ncsenate-facebook-part2.html) )
 
@@ -26,7 +26,7 @@ In the case above, the two topics are pretty clear. The right hand side shows wo
 
 The topic on the left hand side represents the opposing side of the issue focusing on (for a lack of better label) "bathroom safety" by focusing on the "safety" risks to "girls" in "bathrooms" and "locker rooms". Obviously, this topic is the focus of Republican defenders of the law. 
 
-Interestingly, note that interwoven within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "share" or "sign" a petition as compared to the "HB2" topic. 
+Note that within the "bathroom safety" topics are words that emphasize that topic is used to promote a call-to-action for constituents to "share" or "sign" a petition as compared to the "HB2" topic. 
 
 Topics
 ------------------------
