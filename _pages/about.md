@@ -10,6 +10,6 @@ Every day you leave a trail of data when you comment on your friend's Facebook p
 
 In this blog, I will cover tools and techniques to analyze the abundant troves of digital footprints in social media, text and social networks. 
 
-I'm a PhD student in Computing and Information Systems at UNC Charlotte. I have a dual research assistantship through UNC Charlotte's [Data Science Initiative](http://dsi.uncc.edu) and [Project Mosaic](http://projectmosaic.uncc.edu), the university's social science research initiative. 
+I'm a PhD candidate in Computing and Information Systems at UNC Charlotte, with research affiliations with UNC Charlotte's [Data Science Initiative](http://dsi.uncc.edu), [Charlotte Visualization Center](http://viscenter.uncc.edu/), and [Project Mosaic](http://projectmosaic.uncc.edu), the university's social science research initiative. 
 
-My focus is on integrating computer science methods with social science research: the emerging field of computational social science. My research interests include social network analysis, text analysis, visualizations and social media applications.
+My focus is on integrating computer science methods with social science research: the emerging field of computational social science. My research interests include text analysis, social network analysis, visualizations and social media applications.
