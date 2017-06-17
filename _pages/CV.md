@@ -11,7 +11,7 @@ permalink: /cv.html
 **University of North Carolina at Charlotte** 
 
 * PhD Candidate, Computing & Information Systems with concentration in Computer Science
-* Qualifying Exam: "Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond"
+  * Qualifying Exam: "Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond"
 
 * MS in Data Science & Business Analytics (2016)
 
@@ -25,8 +25,8 @@ permalink: /cv.html
 
 **University of North Carolina at Chapel Hill**
 
-* BA in Economics with Highest Honors, minor in Mathematics (2007)
-* Thesis: "An Endogenous Dynamic General Equilibrium Model of Fertility for England 1881-1931"
+* BA in Economics with Highest Honors, minor in Mathematics (2007) 
+  * Thesis: "An Endogenous Dynamic General Equilibrium Model of Fertility for England 1881-1931"
 
 ## Professional Experience
 
