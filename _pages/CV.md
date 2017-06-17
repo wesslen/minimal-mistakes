@@ -1,12 +1,12 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 layout: single
 excerpt: "Curriculum Vitae"
 sitemap: false
 permalink: /cv.html
 ---
 
-### Education
+## Education
 
 **University of North Carolina at Charlotte** 
 
@@ -28,7 +28,7 @@ permalink: /cv.html
 * BA in Economics with Highest Honors, minor in Mathematics (2007)
 * Thesis: "An Endogenous Dynamic General Equilibrium Model of Fertility for England 1881-1931"
 
-### Professional Experience
+## Professional Experience
 
 **Publicis Hawkeye**
 
@@ -42,7 +42,7 @@ AVP, Risk Analysis Senior Specialist: 2011-2013
 
 Global Risk Associate Program: 2009-2011
 
-### Teaching
+## Teaching
 
 **Workshops**
 
