@@ -22,8 +22,8 @@ Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review
 
 ## Working Papers / PhD Research
 
-Wesslen, Ryan. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
+**Wesslen, Ryan**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
 
 *   This paper fulfilled part of my qualifying exam requirement for the UNCC CIS PhD program.
 
-Wesslen, Ryan. Measuring media bias on facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
+**Wesslen, Ryan**. Measuring media bias on Facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
