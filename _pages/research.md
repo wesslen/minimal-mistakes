@@ -6,7 +6,7 @@ sitemap: false
 permalink: /research.html
 ---
 
-## Peer-Reviewed Publications
+## Peer-Reviewed
 
 Gallicano, Tiffany D., **Ryan Wesslen**, and Jean-Claude Thill (2017). From cluster tweets to retweets: A big data, rhetorical exploration of digital social advocacy in the context of the Charlotte protests on Twitter. In Proceedings of 2017 International Public Relations Research Conference.
 
