@@ -20,8 +20,10 @@ Cho, Isaac, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou
 
 Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). In Proceedings of 2017 Meeting of the Southern Management Association.
 
-## Working Paper / PhD Research
+## Working Papers / PhD Research
 
 Wesslen, Ryan. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
 
 *   This paper fulfilled part of my qualifying exam requirement for the UNCC CIS PhD program.
+
+Wesslen, Ryan. Measuring media bias on facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
