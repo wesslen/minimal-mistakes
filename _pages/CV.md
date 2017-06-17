@@ -8,39 +8,31 @@ permalink: /cv.html
 
 ## Education
 
-**University of North Carolina at Charlotte** 
+* Ph.D. Candidate, Computing & Information Systems (Computer Science concentration). UNC Charlotte
 
-* PhD Candidate, Computing & Information Systems with concentration in Computer Science
-  * Qualifying Exam: "Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond"
+* M.S. in Data Science & Business Analytics (2016). UNC Charlotte
 
-* MS in Data Science & Business Analytics (2016)
+* M.A. in Economics (2011). New York University
 
-**New York University**
+* M.S. in Financial Mathematics (2009). NC State University
 
-* MA in Economics (2011)
-
-**North Carolina State University**
-
-* MS in Financial Mathematics (2009)
-
-**University of North Carolina at Chapel Hill**
-
-* BA in Economics with Highest Honors, minor in Mathematics (2007) 
-  * Thesis: "An Endogenous Dynamic General Equilibrium Model of Fertility for England 1881-1931"
+* B.A. in Economics with Highest Honors (2007). UNC Chapel Hill
 
 ## Professional Experience
 
-**Publicis Hawkeye**
+Research Assistant: 2016-present. UNC Charlotte
 
-Senior Marketing Analyst: 2014-2015
+Senior Marketing Analyst: 2014-2015. Publicis Hawkeye
 
-**Bank of America**
+VP, Consumer Strategy Product Analyst III: 2013-2014. Bank of America
 
-VP, Consumer Strategy Product Analyst: 2013-2014
+AVP, Risk Analysis Senior Specialist: 2011-2013. Bank of America
 
-AVP, Risk Analysis Senior Specialist: 2011-2013
+Global Risk Associate Program: 2009-2011. Bank of America
 
-Global Risk Associate Program: 2009-2011
+## Research
+
+[See Research Page](/research.html)
 
 ## Teaching
 
