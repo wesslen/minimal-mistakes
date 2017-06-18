@@ -1,13 +1,14 @@
 # main links links
 main:
-#  - title: "UNCC Twitter Data FAQ"
-#    url: "http://webpages.uncc.edu/rwesslen/blogs/twitter-faq.html"
 
   - title: "About Me"
     url: /about
     
   - title: "Research"
     url: /research
+
+  - title: "Teaching"
+    url: /teaching
     
   - title: "CV"
     url: /cv    
