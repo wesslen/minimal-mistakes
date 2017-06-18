@@ -10,7 +10,7 @@ permalink: /research.html
 
 Gallicano, Tiffany D., **Ryan Wesslen**, and Jean-Claude Thill (2017). From cluster tweets to retweets: A big data, rhetorical exploration of digital social advocacy in the context of the Charlotte protests on Twitter. In Proceedings of 2017 International Public Relations Research Conference.
 
-*   Boston University Award for the Top Paper About Public Relations and the Social and Emerging Media at the conference.
+*   Boston University Award for the Top Paper About Public Relations and the Social and Emerging Media.
 
 **Wesslen, Ryan**, Tiffany D. Gallicano, Jean-Claude Thill, and Sagar Nandu (2017). Hot issue publics on Twitter: Analyzing Charlotte protests with automated text analysis. In 2017 International Conference on Computational Social Science (IC2S2). 
 
@@ -23,7 +23,5 @@ Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review
 ## Working Papers / PhD Research
 
 **Wesslen, Ryan**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
-
-*   This paper fulfilled part of my qualifying exam requirement for the UNCC CIS PhD program.
 
 **Wesslen, Ryan**. Measuring media bias on Facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
