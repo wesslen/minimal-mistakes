@@ -23,7 +23,11 @@ If true, I should be able to predict location (ties) with their tweets. In this 
 
 ### Setup
 
-First, to run pyspark and Jupyter, I used Docker to set up [this pyspark-Jupyter Docker container](https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook). If you need Docker, go to this [website](https://docs.docker.com/engine/installation/) and install the Community Edition. Some basic knowledge of Docker is ideal, but you can run the container in the command line with the code in Ubuntu:
+First, to run pyspark and Jupyter, I used Docker to set up [this pyspark-Jupyter Docker container](https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook). If you need Docker, go to this [website](https://docs.docker.com/engine/installation/) and install the Community Edition. 
+
+Alternatively, another option is to go to [play-with-docker.com](http://play-with-docker.com). This allows you (FOR FREE!) to run a docker session with multiple nodes; the only downside is that every four hours the session restarts, meaning you lose your data. Therefore, this isn't ideal for long term projects, but great for learning. I'd recommend newer users try this with one instance. Note: each container is limited to 4GB of memory, most of which is taken by the jupyter-pyspark container. I tried to run and simple file and was able to but likely you would need more than one node (instance). That will require additional settings for Docker Swarm mode. If I get it to run, I may create another tutorial.
+
+If instead you were able to follow the instructions and downloaded Docker locally, you can run the jupyter-pyspark container. TO run it, some basic knowledge of Docker is ideal, but you can run the container in the command line with the code in Ubuntu:
 
 `$ docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook`
 
