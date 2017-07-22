@@ -12,7 +12,7 @@ Gallicano, Tiffany D., **Ryan Wesslen**, and Jean-Claude Thill (2017). From clus
 
 *   Boston University Award for the Top Paper About Public Relations and the Social and Emerging Media.
 
-**Wesslen, Ryan**, Tiffany D. Gallicano, Jean-Claude Thill, and Sagar Nandu (2017). Hot issue publics on Twitter: Analyzing Charlotte protests with computer-assisted text analysis. In 2017 International Conference on Computational Social Science (IC2S2). [presentation](/assets/documents/papers/IC2S2-HotIssue-Charlotte.pdf)
+**Wesslen, Ryan**, Tiffany D. Gallicano, Jean-Claude Thill, and Sagar Nandu (2017). Hot issue publics on Twitter: Analyzing Charlotte protests with computer-assisted text analysis. In 2017 International Conference on Computational Social Science (IC2S2). [presentation](/assets/documents/presentations/IC2S2-HotIssue-Charlotte.pdf)
 
 Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). In Proceedings of 2017 Meeting of the Southern Management Association.
 
