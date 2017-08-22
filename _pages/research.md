@@ -16,9 +16,9 @@ Gallicano, Tiffany D., **Ryan Wesslen**, and Jean-Claude Thill (2017). From clus
 
 Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). In Proceedings of 2017 Meeting of the Southern Management Association.
 
-Cho, Isaac, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). The Anchoring Effect in Decision-Making with Visual Analytics. In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
+Cho, Isaac, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). [The Anchoring Effect in Decision-Making with Visual Analytics](/assets/documents/papers/anchorbias.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
 
-Cho, Isaac, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data. In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
+Cho, Isaac, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). [CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data](/assets/documents/papers/crystalball.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
 
 ## Working Papers / PhD Research
 
