@@ -16,11 +16,13 @@ Gallicano, Tiffany D., **Ryan Wesslen**, and Jean-Claude Thill (2017). From clus
 
 Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). In Proceedings of 2017 Meeting of the Southern Management Association.
 
-Cho, Isaac, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). [The Anchoring Effect in Decision-Making with Visual Analytics](/assets/documents/papers/anchorbias.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
+Cho, Isaac, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). [The Anchoring Effect in Decision-Making with Visual Analytics](/assets/documents/papers/anchorbias.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference. [GitHub](https://github.com/wesslen/vast2017-anchoringeffect)
 
 Cho, Isaac, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). [CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data](/assets/documents/papers/crystalball.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
 
 ## Working Papers / PhD Research
+
+Banks, George, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (2017). "Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders", University of North Carolina at Charlotte, working paper.
 
 **Wesslen, Ryan**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
 
