@@ -6,7 +6,9 @@ sitemap: false
 permalink: /cv.html
 ---
 
-[pdf of long CV](/assets/documents/cv/wesslen-cv-11142017.pdf)
+## Long CV
+
+[pdf](/assets/documents/cv/wesslen-cv-11142017.pdf)
 
 ## Education
 
