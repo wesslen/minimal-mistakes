@@ -12,6 +12,10 @@ permalink: /teaching.html
 
 ## Workshops
 
+### Computational Social Science Series with R
+
+*   Ten week workshop series (3 hours per session), Fall 2017 [GitHub](https://wesslen.github.io/fall2017-rworkshops/)
+
 ### R Fundamentals
 
 *   R Bootcamp for Faculty, July 2017 (2 day / 3 hour), co-taught with Kailas Venkitasubramanian and Paul Jung [GitHub](https://github.com/wesslen/r-bootcamp-workshop-summer-2017)

@@ -1,10 +1,12 @@
 ---
-title: "Curriculum Vitae"
+title: "Short Curriculum Vitae"
 layout: single
-excerpt: "Curriculum Vitae"
+excerpt: "Short Curriculum Vitae"
 sitemap: false
 permalink: /cv.html
 ---
+
+[pdf of long CV](/assets/documents/cv/wesslen-cv-11142017.pdf)
 
 ## Education
 
