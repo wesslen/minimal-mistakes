@@ -6,24 +6,28 @@ sitemap: false
 permalink: /research.html
 ---
 
-## Peer-Reviewed
+## Conferences
 
-Gallicano, Tiffany D., **Ryan Wesslen**, and Jean-Claude Thill (2017). From cluster tweets to retweets: A big data, rhetorical exploration of digital social advocacy in the context of the Charlotte protests on Twitter. In Proceedings of 2017 International Public Relations Research Conference.
+Tiffany D. Gallicano, **Ryan Wesslen**, and Jean-Claude Thill (2017). From cluster tweets to retweets: A big data, rhetorical exploration of digital social advocacy in the context of the Charlotte protests on Twitter. In Proceedings of 2017 International Public Relations Research Conference.
 
 *   Boston University Award for the Top Paper About Public Relations and the Social and Emerging Media.
 
-**Wesslen, Ryan**, Tiffany D. Gallicano, Jean-Claude Thill, and Sagar Nandu (2017). Hot issue publics on Twitter: Analyzing Charlotte protests with computer-assisted text analysis. In 2017 International Conference on Computational Social Science (IC2S2). [presentation](/assets/documents/presentations/IC2S2-HotIssue-Charlotte.pdf)
+**Ryan Wesslen**, Tiffany D. Gallicano, Jean-Claude Thill, and Sagar Nandu (2017). Hot issue publics on Twitter: Analyzing Charlotte protests with computer-assisted text analysis. In 2017 International Conference on Computational Social Science (IC2S2). [presentation](/assets/documents/presentations/IC2S2-HotIssue-Charlotte.pdf)
 
-Banks, George, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). In Proceedings of 2017 Meeting of the Southern Management Association. [topicApp GitHub](https://github.com/wesslen/topicApp)
+George Banks, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2017). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). In Proceedings of 2017 Meeting of the Southern Management Association. [topicApp GitHub](https://github.com/wesslen/topicApp)
 
-Cho, Isaac, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). [The Anchoring Effect in Decision-Making with Visual Analytics](/assets/documents/papers/anchorbias.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference. [GitHub](https://github.com/wesslen/vast2017-anchoringeffect)
+Isaac Cho, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). [The Anchoring Effect in Decision-Making with Visual Analytics](/assets/documents/papers/anchorbias.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference. [GitHub](https://github.com/wesslen/vast2017-anchoringeffect)
 
-Cho, Isaac, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). [CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data](/assets/documents/papers/crystalball.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
+Isaac Cho, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). [CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data](/assets/documents/papers/crystalball.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
+
+## Journals
+
+George Banks, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (in press). "Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders", Journal of Management.
+
+George Banks, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (in press). A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App). Journal of Business and Psychology. [topicApp GitHub](https://github.com/wesslen/topicApp) [code](https://github.com/wesslen/text-analysis-org-science) [Dataverse repo](https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/R4W7ZS)
 
 ## Working Papers / PhD Research
 
-Banks, George, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (2017). "Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders", University of North Carolina at Charlotte, working paper.
+**Ryan Wesslen**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
 
-**Wesslen, Ryan**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
-
-**Wesslen, Ryan**. Measuring media bias on Facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
+**Ryan Wesslen**. Measuring media bias on Facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
