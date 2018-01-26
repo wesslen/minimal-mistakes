@@ -22,11 +22,11 @@ Isaac Cho, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou 
 
 ## Journals
 
-George Banks, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (in press). Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders, Journal of Management.
-
 George Banks, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (in press). [A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App)](/assets/documents/papers/tmm.pdf). Journal of Business and Psychology. [topicApp](https://github.com/wesslen/topicApp) [GitHub code](https://github.com/wesslen/text-analysis-org-science) [Dataverse repo](https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/R4W7ZS)
 
 ## Working Papers / PhD Research
+
+George Banks, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad. Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders.
 
 **Ryan Wesslen**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
 

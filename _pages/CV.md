@@ -8,7 +8,7 @@ permalink: /cv.html
 
 ## Long CV
 
-[pdf](/assets/documents/cv/wesslen-cv-11142017.pdf)
+[pdf](/assets/documents/cv/wesslen-cv-012618.pdf)
 
 ## Education
 
