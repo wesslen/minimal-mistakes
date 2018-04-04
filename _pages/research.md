@@ -32,7 +32,7 @@ Tiffany D. Gallicano, **Ryan Wesslen**, and Jean-Claude Thill (2017). From clust
 
 ## Working Papers / PhD Research
 
-**Ryan Wesslen**, Sashank Santhanam, Alireza Karduni, Isaac Cho, Samira Shaikh, and Wenwen Dou. Anchored in a Data Storm: How Anchoring Bias Can Affect User Strategy, Confidence, and Decisions in Visual Analytics (Mar 201)8. In review.
+**Ryan Wesslen**, Sashank Santhanam, Alireza Karduni, Isaac Cho, Samira Shaikh, and Wenwen Dou. Anchored in a Data Storm: How Anchoring Bias Can Affect User Strategy, Confidence, and Decisions in Visual Analytics (Mar 2018). In review.
 
 Alireza Karduni, Isaac Cho, **Ryan Wesslen**, Sashank Santhanam, Dustin Arendt, Svitlana Volkova, and Wenwen Dou. Vulnerable to Misinformation? Verifi! (Mar 2018). In review.
 
