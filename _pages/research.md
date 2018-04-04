@@ -8,9 +8,9 @@ permalink: /research.html
 
 ## 2018
 
-Alireza Karduni, **Ryan Wesslen**, Sashank Santhanam, Isaac Cho, Svitlana Volkova, Dustin Arendt, Samira Shaikh, and Wenwen Dou (forthcoming). Can You Verifi This? Studying Uncertainty and Decision-Making about Misinformation in Visual Analytics. ICWSM long paper. Acceptance rate 16%.
+Alireza Karduni, **Ryan Wesslen**, Sashank Santhanam, Isaac Cho, Svitlana Volkova, Dustin Arendt, Samira Shaikh, and Wenwen Dou (forthcoming). Can You Verifi This? Studying Uncertainty and Decision-Making about Misinformation in Visual Analytics. 2018 ICWSM long paper. Acceptance rate 16%.
 
-**Ryan Wesslen**, Sagar Nandu, Omar Eltayeb, Tiffany Gallicano, Sara Levens, Min Jiang and Samira Shaikh (forthcoming). Bumper Stickers on the Twitter Highway: Analyzing the Speed and Substance of Profile Changes. ICWSM short paper.
+**Ryan Wesslen**, Sagar Nandu, Omar Eltayeb, Tiffany Gallicano, Sara Levens, Min Jiang and Samira Shaikh (forthcoming). Bumper Stickers on the Twitter Highway: Analyzing the Speed and Substance of Profile Changes. 2018 ICWSM short paper.
 
 George Banks, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (in press). Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders. Journal of Management.
 
@@ -32,14 +32,14 @@ Tiffany D. Gallicano, **Ryan Wesslen**, and Jean-Claude Thill (2017). From clust
 
 ## Working Papers / PhD Research
 
-**Ryan Wesslen**, Sashank Santhanam, Alireza Karduni, Isaac Cho, Samira Shaikh, and Wenwen Dou. Anchored in a Data Storm: How Anchoring Bias Can Affect User Strategy, Confidence, and Decisions in Visual Analytics. Mar 2018. In review.
+**Ryan Wesslen**, Sashank Santhanam, Alireza Karduni, Isaac Cho, Samira Shaikh, and Wenwen Dou. Anchored in a Data Storm: How Anchoring Bias Can Affect User Strategy, Confidence, and Decisions in Visual Analytics (Mar 201)8. In review.
 
-Alireza Karduni, Isaac Cho, **Ryan Wesslen**, Sashank Santhanam, Dustin Arendt, Svitlana Volkova, and Wenwen Dou. Vulnerable to misinformation? Verifi! Mar 2018. In review.
+Alireza Karduni, Isaac Cho, **Ryan Wesslen**, Sashank Santhanam, Dustin Arendt, Svitlana Volkova, and Wenwen Dou. Vulnerable to Misinformation? Verifi! (Mar 2018). In review.
 
-Dustin Arendt, Emily Grace, **Ryan Wesslen**, Svitlana Volkova, and Wenwen Dou. Speed-Accuracy Tradeoffs for Visual Interactive Labeling Using a Representation-Free Classifier. Mar 2018.
+Dustin Arendt, Emily Grace, **Ryan Wesslen**, Svitlana Volkova, and Wenwen Dou. Speed-Accuracy Tradeoffs for Visual Interactive Labeling Using a Representation-Free Classifier (Mar 2018).
 
-**Ryan Wesslen**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond. [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx)
+**Ryan Wesslen**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond (2017). [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx) <https://arxiv.org/abs/1803.11045>
 
-**Ryan Wesslen**. Measuring media bias on Facebook with computer-assisted text analysis [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
+**Ryan Wesslen**. Measuring media bias on Facebook with computer-assisted text analysis (2017). [presentation](/assets/documents/presentations/media-bias-presentation.pptx)
 
 
