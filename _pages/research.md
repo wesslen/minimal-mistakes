@@ -22,7 +22,7 @@ George Banks, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2018). [A Review
 
 Isaac Cho, **Ryan Wesslen**, Alireza Karduni, Sashank Santhanam, Samira Shaikh and Wenwen Dou (2017). [The Anchoring Effect in Decision-Making with Visual Analytics](/assets/documents/papers/anchorbias.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference. [GitHub](https://github.com/wesslen/vast2017-anchoringeffect)
 
-Isaac Cho, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). [CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data](/assets/documents/papers/crystalball.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference.
+Isaac Cho, **Ryan Wesslen**, Svitlana Volkova, William Ribarsky, and Wenwen Dou (2017). [CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data](/assets/documents/papers/crystalball.pdf). In Visual Analytics Science and Technology (VAST), 2017 IEEE Conference. [video demo](https://vimeo.com/230830262)
 
 Tiffany D. Gallicano, **Ryan Wesslen**, and Jean-Claude Thill (2017). From cluster tweets to retweets: A big data, rhetorical exploration of digital social advocacy in the context of the Charlotte protests on Twitter. In Proceedings of 2017 International Public Relations Research Conference.
 
@@ -34,9 +34,9 @@ Tiffany D. Gallicano, **Ryan Wesslen**, and Jean-Claude Thill (2017). From clust
 
 **Ryan Wesslen**, Sashank Santhanam, Alireza Karduni, Isaac Cho, Samira Shaikh, and Wenwen Dou. Anchored in a Data Storm: How Anchoring Bias Can Affect User Strategy, Confidence, and Decisions in Visual Analytics (Mar 2018). In review.
 
-Alireza Karduni, Isaac Cho, **Ryan Wesslen**, Sashank Santhanam, Dustin Arendt, Svitlana Volkova, and Wenwen Dou. Vulnerable to Misinformation? Verifi! (Mar 2018). In review.
+Alireza Karduni, Isaac Cho, **Ryan Wesslen**, Sashank Santhanam, Dustin Arendt, Svitlana Volkova, Samira Shaikh, and Wenwen Dou. Vulnerable to Misinformation? Verifi! (Mar 2018). In review.
 
-Dustin Arendt, Emily Grace, **Ryan Wesslen**, Svitlana Volkova, and Wenwen Dou. Speed-Accuracy Tradeoffs for Visual Interactive Labeling Using a Representation-Free Classifier (Mar 2018).
+Dustin Arendt, Emily Grace, **Ryan Wesslen**, Svitlana Volkova, and Wenwen Dou. Speed-Accuracy Tradeoffs for Visual Interactive Labeling Using a Representation-Free Classifier (Mar 2018). In review.
 
 **Ryan Wesslen**. Computer-Assisted Text Analysis for Social Science: Topic Models and Beyond (2017). [pdf](/assets/documents/papers/topic-models-beyond.pdf) [presentation](/assets/documents/presentations/qualifying-exam-presentation.pptx) <https://arxiv.org/abs/1803.11045>
 
