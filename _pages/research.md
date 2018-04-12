@@ -14,7 +14,7 @@ Alireza Karduni, **Ryan Wesslen**, Sashank Santhanam, Isaac Cho, Svitlana Volkov
 
 George Banks, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (in press). Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders. Journal of Management.
 
-George Banks, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2018). [A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App)](/assets/documents/papers/tmm.pdf). Journal of Business and Psychology. [topicApp](https://github.com/wesslen/topicApp) [GitHub code](https://github.com/wesslen/text-analysis-org-science) [Dataverse repo](https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/R4W7ZS)
+George Banks, Haley Woznyj, **Ryan Wesslen**, and Roxanne Ross (2018). [A Review of Best Practice Recommendations for Text Analysis in R (and a User Friendly App)](https://link.springer.com/article/10.1007/s10869-017-9528-3). Journal of Business and Psychology. [topicApp](https://github.com/wesslen/topicApp) [GitHub code](https://github.com/wesslen/text-analysis-org-science) [Dataverse repo](https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/R4W7ZS)
 
 *   Earlier version appeared in Proceedings of 2017 Meeting of the Southern Management Association.
 
