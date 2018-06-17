@@ -12,11 +12,17 @@ permalink: /teaching.html
 
 ## Workshops
 
-### Computational Social Science Series with R
+### Interactive Visualizations with R (Shiny)
 
-*   Ten week workshop series (3 hours per session), Fall 2017 [GitHub](https://wesslen.github.io/fall2017-rworkshops/)
+*   DSBA 5122 Visual Analytics, 2 guest lectures, Fall 2016 - Spring 2018.
+
+### Computational Social Science
+
+*   Ten week workshop series of Computational Social Science with R (3 hours per session), Fall 2017 [GitHub](https://wesslen.github.io/fall2017-rworkshops/)
 
 ### R Fundamentals
+
+*   Intro to R/R Studio Workshop for Belk College of Business, February 2018 [Website](http://rpubs.com/ryanwesslen/belk-rworkshop)
 
 *   R Bootcamp for Faculty, July 2017 (2 day / 3 hour), co-taught with Kailas Venkitasubramanian and Paul Jung [GitHub](https://github.com/wesslen/r-bootcamp-workshop-summer-2017)
 
