@@ -6,10 +6,6 @@ sitemap: false
 permalink: /about.html
 ---
 
-Every day you leave a trail of data when you comment on your friend's Facebook photo, send an email or retweet a funny cat photo. As our lives become more integrated with digital platforms, we leave more and more digital footprints tracing our thoughts, feelings, opinions and actions.
+I'm a PhD candidate in Computing and Information Systems at UNC Charlotte, with research affiliations with UNC Charlotte's [Charlotte Visualization Center](http://viscenter.uncc.edu/), [Data Science Initiative](http://dsi.uncc.edu), [Project Mosaic](http://projectmosaic.uncc.edu), and the [Pacific Northwest National Lab](https://www.pnnl.gov/).
 
-In this blog, I will cover tools and techniques to analyze the abundant troves of digital footprints in social media, text and social networks. 
-
-I'm a PhD candidate in Computing and Information Systems at UNC Charlotte, with research affiliations with UNC Charlotte's [Charlotte Visualization Center](http://viscenter.uncc.edu/), [Data Science Initiative](http://dsi.uncc.edu), [Project Mosaic](http://projectmosaic.uncc.edu), [Emotion & Cognition Lab](https://levenslab.uncc.edu/) and the [Pacific Northwest National Lab](https://www.pnnl.gov/).
-
-My focus is on integrating computer science methods with social science research: the emerging field of computational social science. My research interests include text analysis, social network analysis, visual analytics and social media applications.
+My focus is on integrating computer science methods with social science research: the emerging field of computational social science. My research interests include text analysis, visual analytics, and social media applications.

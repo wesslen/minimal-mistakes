@@ -10,9 +10,9 @@ permalink: /research.html
 
 ## 2018
 
-Alireza Karduni, **Ryan Wesslen**, Sashank Santhanam, Isaac Cho, Svitlana Volkova, Dustin Arendt, Samira Shaikh, and Wenwen Dou. Can You Verifi This? Studying Uncertainty and Decision-Making about Misinformation in Visual Analytics. 2018 ICWSM long paper. Acceptance rate 16%. [GitHub code](https://github.com/wesslen/verifi-icwsm-2018)
+Alireza Karduni, **Ryan Wesslen**, Sashank Santhanam, Isaac Cho, Svitlana Volkova, Dustin Arendt, Samira Shaikh, and Wenwen Dou. [Can You Verifi This? Studying Uncertainty and Decision-Making about Misinformation in Visual Analytics](https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17853). 2018 ICWSM long paper. Acceptance rate 16%. [GitHub code](https://github.com/wesslen/verifi-icwsm-2018)
 
-**Ryan Wesslen**, Sagar Nandu, Omar Eltayeby, Tiffany Gallicano, Sara Levens, Min Jiang, and Samira Shaikh. Bumper Stickers on the Twitter Highway: Analyzing the Speed and Substance of Profile Changes. 2018 ICWSM short paper. [GitHub code](https://github.com/wesslen/twitter-bumper-sticker-icwsm2018) [SocArxiv Long Version](https://osf.io/preprints/socarxiv/bx9rm)
+**Ryan Wesslen**, Sagar Nandu, Omar Eltayeby, Tiffany Gallicano, Sara Levens, Min Jiang, and Samira Shaikh. [Bumper Stickers on the Twitter Highway: Analyzing the Speed and Substance of Profile Changes](https://aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/view/17834). 2018 ICWSM short paper. [GitHub code](https://github.com/wesslen/twitter-bumper-sticker-icwsm2018) [SocArxiv Long Version](https://osf.io/preprints/socarxiv/bx9rm)
 
 George Banks, Haley Woznyj, **Ryan Wesslen**, Katherine Frear, Gregory Berka, Heather Gordon, and Eric Heggestad (in press). Global work in multinational enterprise: New avenues and challenges for strategically managing human capital across borders. Journal of Management.
 
@@ -49,6 +49,8 @@ Dustin Arendt, Emily Grace, **Ryan Wesslen**, Svitlana Volkova, and Wenwen Dou. 
 **Ryan Wesslen**. [An Endogenous Dynamic General Equilibrium Model of Fertility for England 1881-1931](/assets/documents/papers/uncch-thesis.pdf). UNC Chapel Hill Undergraduate Thesis, 2007. Highest Honors in Economics.
 
 ## Talks
+
+"Visual Analytics as a Tool for Digital Social Experiments" [pdf](), [2018 ICWSM Lab and Field Workshop](https://sites.google.com/view/icwsmlabfield). June 2018.
 
 "Investigating the impact of cognitive biases on exploratory visual analysis" ([pptx](https://webpages.uncc.edu/rwesslen/wesslen-cog-bias-04122018.pptx)), UNC Charlotte Cognitive Psychology Seminar. April 2018.
 
